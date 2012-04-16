@@ -1,0 +1,141 @@
+@import url(reset.css);
+
+/*
+border blue		3f5f9c
+link blue		00529e
+link hover		2851A2
+*/
+
+h1{
+	font-weight:bold;
+}
+
+p{
+	margin:1em 0;
+}
+
+#container{
+	width:981px;
+	margin:0 auto 20px;
+	padding-top:50px;
+	border:1px dotted #3f5f9c;
+}
+
+/* Inside Boston.com */
+#inside-bcom{
+	clear:both;
+	padding:13px 0 25px;
+	border-top:4px solid #256099;
+	overflow:hidden;
+	font-weight:bold;
+	line-height:12px;
+}
+#inside-bcom h1{
+	font-size:11px;
+	line-height:18px;
+	color:#666;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#inside-bcom h1.aside-heading{
+	xpadding:0 0 0 13px;
+	color:#000;
+	font-size:14px;
+	line-height:16px;
+}
+#inside-bcom img{
+	border:1px solid #989898;
+}
+#inside-bcom a:hover{
+	border-bottom:none;
+}
+#inside-bcom .featured li{
+	float:left;
+	width:207px;
+	line-height:12px;
+}
+#inside-bcom .featured a{
+	display:block;
+	padding:20px 13px;
+}
+#inside-bcom .featured a:hover{
+	background:#B7DCFF;
+}
+#inside-bcom .plus{
+	line-height:14px;
+	float:left;
+	padding:20px 0 0 10px;
+}
+#inside-bcom .plus ul{
+	padding:3px 0 0 16px;
+	list-style:disc;
+	color:#00529e;
+}
+
+/* Sponsor Links */
+.sponsor-links{
+	clear:both;
+	overflow:hidden;
+	padding:35px 13px 20px;
+	font-weight:normal;
+	text-align:center;
+	line-height:1.2em;
+}
+.sponsor-links div{
+	float:left;
+	width:150px;
+	margin:0 20px;
+}
+#inside-bcom .sponsor-links img{
+	border:none;
+}
+
+/* Footer */
+footer{
+	padding:0;
+	background:#E5E5E5;
+	color:#464646;
+	text-align:center;
+}
+footer a:hover{
+	text-decoration:underline;
+}
+footer .primary{
+	padding:5px 0;
+	background:#fff;
+	border-top:1px dotted #3f5f9c;
+	border-bottom:1px dotted #3f5f9c;
+}
+footer .secondary{
+	padding:4px 0;
+	border-bottom:1px dotted #3f5f9c;
+}
+footer .secondary nav{
+	padding:2px 0;
+}
+footer li{
+	display:inline-block;
+	padding:0 1px 0 4px;
+	border-left:1px solid #bbb;
+}
+footer li.first-child{
+	border:none;
+}
+footer .secondary li.first-child{
+	text-transform:uppercase;
+}
+footer .secondary a{
+	color:#464646;
+}
+
+/* Article-Specific Styles */
+.sub-footer-ad{
+	padding:
+}
+
+.sub-footer-advertisement {
+  width: 768px;
+  height: 90px;
+  background: red;
+  margin:20px auto 10px auto;
+}

@@ -1,0 +1,469 @@
+/* BODY SETUP STYLES */
+.article #Col1 {width:539px; background-color:#fff; overflow:hidden; float:left;}
+.article #Col2 {width:409px; border-right:none; position:relative; margin:10px 0 0 1px;float: right; overflow: visible;}
+.article #Col3 {display:none;}
+.article #Col2 #Col2L {width:204px;float:left; overflow:hidden;}
+.article #Col2 #Col2R {width:204px;float:left;padding-bottom:10px;}
+.article {background-image:url(http://cache.boston.com/universal/site_graphics/8_6.gif);}
+.article #Col2Top {margin-left:11px;}
+
+/* PRINTER FRIENDLY INITIAL SETUP STYLES */
+#container #containerBorder #headerPF {display:none;}
+
+/* GENERIC STYLES */
+.utility {font:11px arial; color:#272727; display:block;}
+.signer { font-style: italic; }
+#Col1 .caption {font:12px arial; color:#464646; line-height:12px;padding-bottom:4px;}
+.leadOut {text-align:right;background-repeat:no-repeat; background-position:center right;text-transform:uppercase;}
+.leadOut a {padding-right:7px;font-size:10px;} 
+.leadOut a:hover {border-bottom: none;}
+body#article .leadIn {font-family:arial;}
+.article #Col2 {padding-top:0;}
+.form-button {background-image:url(http://cache.boston.com/universal/site_graphics/button_stretch.gif); height:21px; display:block; color:#fff; font-weight:bold; width:37px; border:0;float:left;line-height:29px;padding:0 2px 2px 0;}
+.form-button:link {color: #fff;}
+.form-button:hover {background-image:url(http://cache.boston.com/universal/site_graphics/button_stretch_hover.gif); background-repeat:repeat-x;}
+
+#articleGraphs.hidePages DIV{display:none;}
+#articleGraphs.hidePages DIV.showPage,#articleGraphs.hidePages DIV.showPage DIV{display:block;}
+#article #pagination {display:none;}
+#article #pagination.show{display:block;padding:0 10px 10px 0;}
+#article #pagination.show .paginationI{float:right;}
+#article #prev,#article #next{font-weight:bold;}
+#article #prev{padding-right:6px;}
+#article #next{padding-left:6px;}
+#article #links A{padding:0 4px;}
+#article #prev A{padding-left:4px;}#article #next A{padding-right:4px;}
+#article #links .active{text-decoration:none;cursor:default;color:#272727;font-weight:bold;}
+#article .pginfo{font-weight:bold;color:#666;float:left;padding-right:6px;}
+#article .continued{padding-left:5px;}
+#pfHeader {display:none;}
+
+
+
+/* ARTICLE COLUMN ONE STYLES */
+/* Generic Article Styles */
+.article #articleMasthead .breadcrumb {float:left;font-size:10px; font-family:arial; text-transform:uppercase;margin:10px 0;padding:0; font-weight:bold; color:#3F5F9C;}
+.article #articleMasthead .breadcrumb a { color:#3F5F9C; }
+.article #articleMasthead .breadcrumb a:hover { border-bottom:none; color:#002878;}
+.article #articleMasthead .breadcrumb ul {margin:0;padding:0;}
+.article #articleMasthead .breadcrumb li {display:inline;font-size:10px; font-family:arial; color: #999; text-transform:uppercase;margin:0;padding:0; font-weight:bold;}
+.article #Col1 {margin:0 10px 10px 0;}
+.article h3 {margin:8px 0;}
+.article #Col1 #articleText {font-family: "Georgia","Times New Roman",Times,serif; color:#000;padding:0;margin:0;}
+
+/* Pre-article tools */
+.article #Col1 #headTools img.providerlogo { margin-top:-31px; }
+.article #Col1 #headTools .overline { 	margin-bottom:4px; }
+.article #Col1 #headTools h1 {font:bold 22px arial; line-height:23px;margin:0 0 5px 0; color:#000;}
+.article #Col1 #headTools h2 {font:15px arial; line-height:17px;margin:0 0 10px 0; color:#000}
+.article #Col1 #headTools #tools {float:right;color:#464646;}
+.article #Col1 #headTools #tools img {height:4px;width:4px;padding:0;margin:0 3px;border:1px solid black;}
+.article #Col1 #headTools #tools .listPipe {padding:0;margin:0 5px;color:#464646;}
+
+
+
+.article #Col1 #headTools .utility { line-height: 17px;} 
+.article #Col1 #headTools .utility  #tools { line-height: 17px; width: 100%; display: block; clear: both;   color:#464646;  margin: 10px 0 15px 0; padding:  0 ;    position: relative;   }
+.article #Col1 #headTools  #tools ul {float:left; margin: 0; padding: 0;     } 
+.article #Col1 #headTools  #tools ul li {     vertical-align:middle; display:block; float: left;  list-style: none; padding: 0; margin: 0;  text-align:right;    }
+
+#shareEmail {line-height:17px;    background: url(http://cache.boston.com/universal/site_graphics/icon_blue_email.gif)   left center  no-repeat;  }
+#shareSingle {line-height:17px;  background: url(http://cache.boston.com/universal/site_graphics/icon_blue_single.gif) left center no-repeat; }
+
+#sharePrint {
+  background: none;
+  line-height: 17px;
+}
+
+#sharePrint a {
+  background: url(http://cache.boston.com/universal/site_graphics/icon_blue_printer_gray.gif) no-repeat 0 50%;
+  color: #afafaf;
+  padding-top: 2px;
+}
+
+#sharePrint .print-js {
+  background: url(http://cache.boston.com/universal/site_graphics/icon_blue_printer.gif) no-repeat 0 50%;
+  color: #2851A2;
+  padding-top: 2px;
+}
+ 
+#shareEmail a, #sharePrint a, #shareSingle a { padding-left: 20px; }
+#shareEmail a.etaf {padding:0 0 0 20px;;}
+
+#yahooBuzzBadge-form a span span  {  margin-top: -2px!important;   } 
+#toolsShareThis {  float: left; width: 75px;        }
+li#toolsShareThis span { padding:0 0 5px 0; margin: 0;  } 
+	
+
+
+.article #Col1 #headTools .articleTextsize { float:right; }
+
+.article #Col1 #headTools #tools .plus {width:5px;height:5px;padding:0 4px; font:14px arial;color:#fff;font-weight:bold;margin:0 0 0 2px;background-color:#3f5f9c;cursor:pointer;}
+.article #Col1 #headTools #tools .plus:hover {background-color:#203C73;}
+.article #Col1 #headTools #tools .minus {width:5px;height:5px;padding:0 4px; font:14px arial;color:#fff;font-weight:bold;margin:0 2px 0 5px;background-color:#3f5f9c;cursor:pointer;}
+.article #Col1 #headTools #tools .minus:hover {background-color:#203C73;}
+
+/* Related Image - Generic 
+#relatedPhoto .lightBoxing span.utility {background-color:#464646; position:absolute;}
+#relatedPhoto .lightBoxing span.utility a {color:#fff;}
+#relatedPhoto .lightBoxing span.utility a:hover {color:#fff;font-weight:600;}
+.article #Col1 #relatedPhoto .utility {opacity: 0.8; position:absolute; padding:4px;left:1px; display:inline;bottom:1px;text-align:-moz-center;
+width:58px;text-align:center;}
+.article #Col1 #relatedPhoto .lightBoxing {position:relative;} */
+
+/* Related Image - Large */
+.article #headTools #relatedPhoto img {width:529px;}
+.article #headTools #relatedPhoto {width:529px;}
+.article #headTools #relatedPhoto {margin-top:10px;}
+.article #headTools #relatedPhoto .source {float:right;}
+.article #headTools #relatedPhoto .caption {display:block; clear:right;}
+
+/* Related Image - Small */
+.article #Col1 .relatedBox #relatedPhoto {width:189px;overflow:hidden;margin-bottom:10px;position:relative;} 
+.article #Col1 .relatedBox #relatedPhoto .utility {float:right;display:block;padding-bottom:5px;margin:0;}
+.article #Col1 .relatedBox #relatedPhoto .source {width:189px;display:block;padding:0;margin:0 0 5px 0;}
+.article #Col1 .relatedBox #relatedPhoto img {overflow:hidden;margin:0;padding:0;}
+
+/* Left Related Box Styles */
+.article #Col1 #relatedContent {width:189px;float:left;margin:0 21px 10px 0;padding:0;overflow:hidden;}
+.article #Col1 #relatedContent ul {font-family:arial;} 
+.article #Col1 #relatedCtr {width:189px; text-align:center;}
+.article #Col1 .relatedBox {width:189px;overflow:hidden;border-top:4px solid #b7dcff;margin-top:10px;}
+.article #Col1 #relatedGraphic {width:189px;overflow:hidden;border-bottom:1px dotted #3f5f9c;padding-bottom:5px;}
+#relatedContent .relatedBox h3 {font-size:15px; margin:8px 0; display:block; line-height:17px;}
+
+/* Inform Box Styles*/
+.article #Col1 #informBox {width:189px;}
+.article #Col1 #informBox li#informPowered {border:0px;margin:0px;float:left;list-style-type:none;}
+.article #Col1 #informBox li#informPowered img {border:0px;margin:0px;padding-right:10px;float:right;}
+
+/* ARTICLE FOOTER */
+/* Generic */
+.article #Col1 #articleFootTools {padding:0;margin:20px 0 0 0;}
+.article #Col1 #articleFootAd {margin: 30px 0;}
+
+/* Page numbers - PrevNext buttons */
+#pagination ul#paginationI {margin: 30px 0 20px 0;float:right;list-style-type:none;}
+#pagination ul#paginationI li {border:1px solid #efefef; background:#fff;color:#3f5f9c;font:bold 12px arial;text-align:center;text-decoration:none;padding:1px 8px;margin:0 1px;display:inline;}
+#pagination ul#paginationI li.number {width:auto;height:14px;}
+#pagination ul#paginationI li.prevNext {font-weight:normal;width:44px;height:14px;}
+#pagination ul#paginationI li a {text-decoration:none;}
+#pagination ul#paginationI li:hover {text-decoration:none;border-color:#3f5f9c;color:#fff;}
+#pagination ul#paginationI li.numberActive {background:#3f5f9c;}
+#pagination ul#paginationI li.numberActive a {text-decoration:none;color:#fff;}
+#pagination ul#paginationI li.numberActive:hover {border:solid #fff 1px;}
+#pagination ul#paginationI li.last {margin-right:6px;}
+#pagination .arrowRight {margin-left:5px;width:3px;height:5px;text-align:right; background-image: url(http://cache.boston.com/universal/site_graphics/blue_arrow.gif); background-repeat:no-repeat; background-position:center right;}
+#pagination .arrowLeft {margin-right:5px;width:3px;height:5px;text-align:left; background-image: url(http://cache.boston.com/universal/site_graphics/left_blue_arrow.jpg); background-repeat:no-repeat; background-position:center left;}
+#pagination ul#paginationI li.hide {display:none;}
+
+
+#articleNextIn {margin: 0 10px 20px 0;float:right;}
+
+/* Footer tools widget */
+#footToolsNav li {cursor:pointer;}
+#footToolsNav span {cursor:pointer;}
+
+ul#footToolsNav {width:509px;height:52px;padding:0;margin:0;list-style-type:none;display:inline;}
+ul#footToolsNav li {float:left;}
+#footToolsMain {width:509px;border:0px;position:relative;background-color:#ebf4fb;}
+#footToolsNav #toolsNavPrint, #footToolsNav #toolsNavReprints, #footToolsNav #toolsNavShare {width:68px;height:52px;border:1px dotted #3f5f9c;border-right:none;display:block;}
+#footToolsNav #toolsNavComments, #footToolsNav #toolsNavEmail {width:68px;height:52px;border:1px dotted #3f5f9c;border-right:none;display:none;}
+#footToolsNav #toolsNavSingle {width:74px;height:52px;border:1px dotted #3f5f9c;border-right:none;display:block;}
+
+#footToolsNav #toolsNavPrintOn, #footToolsNav #toolsNavReprintsOn, #footToolsNav #toolsNavShareOn, #footToolsNav #toolsNavCommentsOn {background-color:#ebf4fb;width:68px;height:52px;border:1px dotted #3f5f9c;border-right:none;border-bottom:none;display:none;}
+#footToolsNav #toolsNavSingleOn {background-color:#ebf4fb;width:74px;height:52px;border:1px dotted #3f5f9c;border-right:none;border-bottom:none;display:none;}
+
+#footToolsNav #toolsNavEmailOn {background-color:#ebf4fb;width:68px;height:52px;border:1px dotted #3f5f9c;border-right:none;border-bottom:1px solid #ebf4fb;display:block;}
+
+#footToolsNav #toolsNavShare, #footToolsNav #toolsNavShareOn {border-right: 1px dotted #3f5f9c;}
+#listShare  {list-style-type:none;display:none;padding:30px 5px;margin:0;}
+#listShare li {float:left;padding:0;margin: 0 5px;text-align:center;}
+#listShare li img {position:relative;top:3px;padding:0 5px;}
+#listShare li.deliciousBrand {font-size:10px;position:relative;top:5px;left:-2px;padding:0;margin:0;}
+#listShare a:hover {text-decoration:none;border-bottom:none;}
+
+#toolsShare {width:509px;text-align:center;}
+
+#footToolsNav #toolsNavBlank {width:159px;height:53px;border:none;border-bottom:1px dotted #3f5f9c;position:relative;bottom:0;right:1px;}
+.noreprints #footToolsNav #toolsNavBlank {width: 227px}
+
+#footToolsMain #toolsEmail {display:block;}
+#footToolsMain #toolsEmail .row {clear: both; padding-top: 10px;}
+#footToolsMain #toolsEmail #emailForm {width: 489px;text-align: left; padding:0 10px;}
+#footToolsMain textarea {width: 489px;}
+
+/* Footer article tools (Nav Text) */
+#footToolsNav {text-align:center;}
+#footToolsNav .navImage {padding-top:8px;display:block;} a:hover {border-bottom:none;}
+#footToolsNav .navTextE  {padding-top:14px;}
+#footToolsNav .navTextP  {padding-top:9px;}
+#footToolsNav .navTextS  {padding-top:10px;}
+#footToolsNav .navTextR  {padding-top:8px;}
+#footToolsNav .navTextSh {padding-top:12px;}
+#footToolsNav .navTextC  {padding-top:9px;}
+#footToolsNav .navTextE, #footToolsNav .navTextP, #footToolsNav .navTextS, #footToolsNav .navTextR, #footToolsNav .navTextSh, #footToolsNav .navTextC {padding-bottom:2px;display:block;font-size:11px;font-weight:bold;color:#3f5f9c;}
+
+/* Footer article tools - Email Form */
+#toolsEmail #emailForm input#sendTo {width: 489px;}
+#toolsEmail #emailForm input#fromName {width: 240px;}
+#toolsEmail #emailForm input#fromEmail {width: 240px;position:relative;right:-6px;}
+
+#toolsEmail {width:491px;text-align:left;padding:9px;border:1px dotted #3f5f9c;border-top:none}
+#toolsEmail .etafForm {width:489px;padding:0;margin:0;}
+#toolsEmail .etafForm #eCol1 {float:left;width:214px;padding-right:10px;border-right:dotted 1px #3F5F9C;}
+#toolsEmail .etafForm #eCol2 {float:left;position:relative;width:254px;padding-left:10px;}
+#toolsEmail h3 {color:#000;font-family:"Arial Bold";font-size:14px;line-height:16px;text-transform:uppercase;margin:0 0 10px 0;}
+#toolsEmail .formContain {padding:0px;}
+#toolsEmail span.label {color:#272727;font-weight:bold;display:block;}
+#toolsEmail span.explain {font-size:11px;color:#272727;display:block;}
+#toolsEmail span.input {padding-bottom:15px;display:block;}
+#toolsEmail span.input input{border:solid 2px #3F5F9C;width:210px;}
+#toolsEmail span textarea {border:solid 2px #3F5F9C;width:210px;}
+#toolsEmail span.optional {font-size:11px;font-weight:bold;text-transform:none;}
+#toolsEmail span.send {float:right;padding:10px 0;}
+#toolsEmail #eCol2 textarea {width:246px;}
+#toolsEmail span.disclaimer {font-size:11px;text-transform:uppercase;color: #464646;}
+#toolsEmail span.ePriv {color: #272727;font-style:italic;}
+#toolsEmail .form-button {width:auto;margin-right:5px;padding:0 7px;}
+
+/* Footer article tools - Comments */
+#toolsComments {padding:10px;display:none;}
+#commentForm {text-align:left; padding:0;}
+#commentForm .row {padding-top:10px;}
+#commentForm .commentRow {background-color: #efefef;padding:10px;border:1px dotted #3f5f9c;}
+#commentForm .commenter {font-weight:bold;margin-right:5px;width:20%;}
+#commentForm .comment {margin:0 5px;width:80%;}
+#commentForm textarea {width: 489px;margin-top:10px;}
+#articleMasthead img {float:right;}
+
+#footToolsNav li {cursor:pointer;}
+#footToolsNav span {cursor:pointer;}
+
+/* ARTICLE COLUMN TWO STYLES */
+/* Next article */
+.article #Col2 #nextArticleRight {padding:10px;background-color:#ebf4fb;border-left:1px dotted #3f5f9c;line-height:17px;}
+.article #Col2 #nextArticleRight a {font-weight:bold;}
+.article #Col2 #nextArticleRight a.leadOut {padding:0;margin:0;}
+
+/* Right Ad */
+.article #Col2 #rightAd {padding:10px;border:1px dotted #3f5f9c;border-right:none;border-left:none; text-align:center;background:#fff;}
+.article #Col2 #Col2R {padding-top:10px;text-align:center;}
+
+/* ARTICLE COL2 STYLES */
+.article #Col2LRCont {background-image:url(http://cache.boston.com/universal/site_graphics/3n3.gif); background-repeat:repeat-y; background-position: 6px center;}
+.article #Col2 {margin-top:0;}
+.article #Col2 #rightAd {border-top:none;}
+.article #Col2 .relatedBox, .article #Col2 .relatedBoxRight {margin:10px;padding-bottom:10px;}
+.article #Col2 .relatedBoxRight .leadOut {float:right;}
+.article #Col2 #insideBcom {border-top:4px solid #3f5f9c;background-color:#ebf4fb;margin-bottom:0;}
+.article #Col2 #insideBcom h3 {margin:8px 0 8px 10px;}
+.article #Col2 .insideBcomList {margin:0; padding:0;list-style-type:none;background-color:#ebf4fb;}
+.article #Col2 .insideBcomList li {overflow:hidden; margin:0; padding: 8px 0;} 
+.insideBcomList li:hover {background-color:#b7dcff;}
+.article #Col2 .insideBcomList img {width:179px;height:100px;padding-bottom:0px;}
+.article #Col2 .overline a:hover {border-bottom: none;}
+.article #Col2 li.plusLI {margin:0 12px 20px;}
+.article #Col2 ul.plusLinks {margin:0;padding:0;}
+.article #Col2 ul.plusLinks li {list-style-type:none; display:inline;padding:0px; margin:0; line-height:16px; height:auto;}
+.article #Col2 ul.plusLinks a {border:0;}
+.article #Col2 li.plusLI li.listPipe { padding: 0 2px 0 0; color: #272727;}
+
+.article #Col2 .insideBcomList li:hover ul.plusLinks { background-color:transparent;}
+.article #Col2 .insideBcomList li:hover .leadIn,
+.article #Col2 .insideBcomList li:hover .subSectionHeader { color: #333; }
+.article #Col2 .insideBcomList li:hover ul.plusLinks .leadIn, .insideBcomList li:hover ul.plusLinks .subSectionHeader  {color:#666;}
+.article #Col2 .insideBcomList li:hover .caption a { color: #002878; }
+
+.article #Col2 #mostPopular {padding:10px 0 10px 10px;margin:0;border:1px dotted #3f5f9c;border-right:none; border-left:none;}
+.article #Col2 #mostPopular .divide {border-bottom:1px dotted #3f5f9c;margin-bottom:1px;}
+
+.article #Col2 #mostPopular ol.linklist li {border-bottom:1px dotted #999; color:#464646; font-size:13px; font-weight:bold; list-style-position:outside; padding:0;}
+.article #Col2 #mostPopular ol.linklist li a {font-weight:normal; height: auto; min-height: 1em; display: block; padding: 6px 5px;}
+.article #Col2 #mostPopular ol.linklist li a:hover {border-bottom: none; background-color: #ededed;}
+.article #Col2 #mostPopular .dotted4px {margin: 10px 0 15px;}
+.article #Col2 #mostPopular .split50 {margin-left: 5px;}
+
+ 
+.article #Col2 .relatedBoxSearch {border-left:1px dotted #3f5f9c;border-bottom:1px dotted #3f5f9c;padding:10px 0 10px 10px;margin:0;}
+.article #Col2 #rightSearch {width:399px;background:#e5e5e5;margin:0px;}
+.article #Col2 #rightSearch h3 {padding:1px 0 1px 9px;color:#fff;display:block;background:#3f5f9c;;text-transform:uppercase;}
+.article #Col2 ul#rightSearchBox {list-style-type: none;position:relative;left:-17px;}
+.article #Col2 #rightSearchBox li a {text-decoration:none;} 
+#rightSearchBox li a:hover {text-decoration:underline;}
+
+#articleBodyTop {margin:15px 0; font-weight:normal; font-size: 11px; color: #464646; line-height:14px; font-family: Arial,Helvetica,sans-serif;}
+#articleBodyTop .imageVPad {padding-right:10px;}
+
+.hideMe {display:none; visibility:hidden;}
+
+#articleFootTools #footToolsNav li.hideMe {display:none;}
+.article #Col1 #informBox {display:none;}
+div#articleEmbed {font-family:Arial, Helvetica, sans-serif; display:none;}
+div#articleEmbed #relatedPhoto {font-weight:normal; font-size: 11px; color: #464646; line-height:14px;}
+div#articleGraphs div#articleEmbed {display:none;}
+.crosshead {display: block;  font-family: arial, helvetica, sans-serif; font-weight: bold; font-size: 14px; color: #272727; }
+#articleGraphs p em {font-style: italic;}
+#articleGraphs .copyright { color: #464646; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 14px; }
+img.storyend {margin-left:4px;}
+
+div#articleGraphs div#articleEmbed #relatedGlobe p {font-size:12px; line-height:16px; font-family:Arial,Helvetica,sans-serif; margin:5px 0; color:#272727;}
+#relatedGlobe strong {display:block;}
+
+.article #headTools .imgSimple {margin:15px 0;}
+
+/*EtaF Overrides*/
+.noemail .etaf, .noemail .etafPipe {display:none;}
+#nextIn {clear:both; text-align: right; font-size:10px; font-family: arial, helvetica, sans-serif; text-transform:uppercase; margin-right:10px;}
+#nextIn a {background-image:url(http://cache.boston.com/universal/site_graphics/blue_arrow.gif); background-position:right center; background-repeat:no-repeat; padding-right:7px; }
+
+
+/* Overriding stupid 3rd Parties */
+div#articleGraphs table, div#articleGraphs tr, div#articleGraphs td {width:auto;}
+div#articleHeader table, div#articleHeader tr, div#articleHeader td {width:auto;}
+div#Col2 table, div#Col2 tr, div#Col2 td {width:auto;}
+
+
+#pagination ul#paginationI .singlePage {border:none;}
+#pagination ul#paginationI .singlePage:hover {border:none;}
+#shareReprints {background:transparent url(http://cache.boston.com/universal/site_graphics/icon_blue_reprints.gif) no-repeat scroll left center; line-height:17px;}
+#shareReprints a {padding-left:20px;}
+
+#globeSubAd {background-image:url(http://cache.boston.com/universal/site_graphics/globe_subscribe_back.jpg); background-repeat:no-repeat; height:52px; width:539px;font-size:13px; text-align:left; font-family:arial; margin-top:15px; clear:both;}
+#globeSubAd span {padding-top:17px; padding-left:70px; display:block;}
+#globeSubAd a {font-weight:bold;}
+
+#globeSubAd.redsox {background-image:url(http://cache.boston.com/universal/site_graphics/sox_fanshop.jpg); padding-left:10px;} 
+#globeSubAd.bruins {background-image:url(http://cache.boston.com/universal/site_graphics/bruins_fanshop.jpg);}
+#globeSubAd.celtics {background-image:url(http://cache.boston.com/universal/site_graphics/celtics_fanshop.jpg);}
+#globeSubAd.pats {background-image:url(http://cache.boston.com/universal/site_graphics/pats_fanshop.jpg);}
+
+/* For article companion ad */
+#bdc_videoCompanionAd {margin:130px 0 0 8px; background-color:#121212; border:4px solid #666; height:292px; display:none; padding: 50px 20px;}
+#bdc_vcaIFrame {margin:0px; padding:0px; width:336px; height:300px;}
+#bdc_bcFlash {min-height:400px;}
+
+.artVid{width:609px; margin-right:10px; margin-bottom:10px}
+
+/* Proquest boxes */
+body #article.archived #pagination, body #article.archived #pagination.show {display:none;}
+#proquestBox {border:solid 1px #cfcfcf; padding:10px; background-color:#ededed; font-family: arial, helvetica; line-height:18px;}
+#proquestBox img {display:block;}
+#proquestBox p, #proquestBox .globeSubInner div {font-family: arial, helvetica; font-size:12px; padding:0 5px; text-align:center; line-height:17px; color#333;}
+#proquestBox h3 {margin:0 0 5px 0; padding:0; color:#000; text-transform:uppercase; font-size:14px;}
+#globeSub, #nonSub {width:250px; float:left; background-color:#fff; border:1px solid #cfcfcf; height:226px;}
+#nonSub {float:right;}
+#proquestBox h4 {background-color:#464646; padding:5px; color:#fff; text-transform:uppercase; font-size:12px;}
+#proquestBox h5 {margin:5px; background-color:#3977b5; color:#fff; text-align:center;}
+#proquestBox .globeSubInner p {margin:0; padding:5px 0}
+#proquestBox #globeSub .globeSubInner {padding:5px 10px;}
+#proquestBox #globeSub #subImage {padding-bottom:25px;}
+#proquestBox #nonSub p {text-align:left; margin:5px 10px 0 10px;}
+#proquestBox #nonSub p a {font-weight:bold;}
+body #article.archived .continued {display:none;}
+#proquestBox #nonSub ul {margin:15px 0 15px 10px; padding:0 0 1px 0; display:block; height:36px;}
+#proquestBox #nonSub ul li {display:block; background-color:#3977b5; float:left; width:70px; margin-right:10px; text-align:center; color:#fff; font-size:12px; line-height:18px; padding:2px 0;}
+#proquestBox #nonSub ul li strong {display:block; font-size:16px;}
+#proquestBox #nonSub a.imageLink {clear:both;}
+#proquestBox .globeSubInner img {margin:0 auto; text-align:center;}
+
+
+#bdc_shareButtons .db-wrapper span span .db-medium,
+#bdc_shareButtons .db-wrapper span.db-wrapper,
+#bdc_shareButtons .db-wrapper a,
+#bdc_shareButtons .db-wrapper span span span span.db-count,
+#bdc_shareButtons .db-wrapper span span span span.db-copy,
+#bdc_shareButtons .db-wrapper .db-submit .db-count, 
+#bdc_shareButtons .db-wrapper .db-submit .db-copy, 
+#bdc_shareButtons .db-wrapper .db-submit .db-anchor,
+#bdc_shareButtons .db-wrapper span span .db-medium .db-anchor,
+#bdc_shareButtons .db-wrapper span .db-submit .db-medium,
+#bdc_shareButtons .db-wrapper span .db-dugg .db-medium,
+#bdc_shareButtons .db-wrapper .db-ie6 span .db-medium,
+#bdc_shareButtons .db-wrapper .db-ie6 .db-submit .db-medium,
+#bdc_shareButtons .db-wrapper .db-ie6 .db-dugg .db-medium,
+#bdc_shareButtons .db-wrapper span span span.db-compact,
+#bdc_shareButtons .db-wrapper span span .db-compact .db-copy, 
+#bdc_shareButtons .db-wrapper span span .db-compact .db-anchor,
+#bdc_shareButtons .db-wrapper span span .db-compact span.db-count,
+#bdc_shareButtons .db-wrapper span .db-submit .db-compact,
+#bdc_shareButtons .db-wrapper span .db-dugg .db-compact,
+#bdc_shareButtons .db-wrapper .db-ie span .db-compact,
+#bdc_shareButtons .db-wrapper .db-ie6 span .db-compact,
+#bdc_shareButtons .db-wrapper .db-ie6 .db-submit .db-compact,
+#bdc_shareButtons .db-wrapper .db-ie6 .db-dugg .db-compact,
+#bdc_shareButtons a.stbutton,
+#bdc_shareButtons .stframe,
+#bdc_shareButtons .stclose,
+#bdc_shareButtons div.stbutton.vertical,
+#bdc_shareButtons div.stbutton.vertical div.stoverlay,
+#bdc_shareButtons div.stbutton.vertical img {
+		  width:auto;
+		  height:auto;
+		  color:#272727;
+		  display:block;
+		  visibility:visible;
+		  text-indent:0;
+		  overflow:hidden;
+		  background:transparent none no-repeat 0 0;
+		  font:normal 11px/125% Arial,Helvetica,Verdana,sans-serif;
+		  text-align:left;
+		  padding:0;
+		  margin:0;
+		  }
+
+
+#bdc_shareButtons {font:normal 11px/125% Arial,Helvetica,Verdana,sans-serif;}
+#bdc_shareButtons a:hover {border-bottom:none;}
+#bdc_shareButtons iframe#bdc_facebook {border:none; overflow:hidden; width:189px; height:30px;}
+#bdc_shareButtons ul.share_trio {margin:6px 0 0 0;padding:6px 0;border-top:1px dotted #999;list-style:none;}
+#bdc_shareButtons ul.share_trio li {display:block;margin:0;padding:2px 0 8px;border-bottom:1px dotted #999;}
+
+
+#bdc_retweet a.retweet.horiz div, #bdc_shareButtons #bdc_digg .db-wrapper span span .db-compact .db-anchor {float:left;	padding:4px 3px 3px 21px;width:32px;color:#2851A2;text-transform:capitalize;}
+#bdc_retweet a.retweet.horiz:hover div,#bdc_shareButtons #bdc_digg:hover .db-wrapper span span .db-compact .db-anchor,#bdc_shareButtons #bdc_other a:hover {text-decoration:underline;}
+
+
+#bdc_retweet a.retweet.horiz strong,#bdc_shareButtons #bdc_digg .db-wrapper span span .db-compact span.db-count {float:right;font-weight:normal;color:#333;padding:4px 0 3px;width:133px;text-align:left;}
+
+
+#bdc_retweet a.retweet {font-size:11px;color:#2851A2;}
+#bdc_retweet a.retweet:hover {color:#002878;border-bottom:none;}
+#bdc_retweet a.retweet.horiz strong {}
+#bdc_retweet a.retweet.horiz strong .clicks {/* font-weight:bold; */}
+#bdc_retweet a.retweet.horiz strong.zero {font-size:11px;}
+#bdc_retweet a.retweet.horiz {background:transparent url('http://cache.boston.com/universal/site_graphics/icons/twitter.png') no-repeat; padding:2px 0 2px 18px;}
+#bdc_retweet #tweetCount {padding-left:5px; color:#000}
+#bdc_retweet a.retweet:hover #tweetCount {text-decoration:none;}
+
+#bdc_shareButtons #bdc_other {padding-top:5px;}
+#bdc_shareButtons #bdc_other a {float:left;margin-right:8px;padding:4px 8px 2px 20px;}
+#bdc_shareButtons #bdc_other .etaf {background:url('http://cache.boston.com/universal/site_graphics/icon_blue_email.gif') no-repeat scroll 0 3px transparent;}
+#bdc_shareButtons #bdc_other #ck_facebook {background:url('http://cache.boston.com/universal/site_graphics/icons/facebook.png') no-repeat scroll 0 2px transparent;}
+#bdc_shareButtons #bdc_other #ck_twitter {background:url('http://cache.boston.com/universal/site_graphics/icons/twitter.png') no-repeat scroll 0 2px transparent;}
+#bdc_shareButtons #bdc_other #ck_digg {background:url('http://cache.boston.com/universal/site_graphics/icons/digg.png') no-repeat scroll 0 3px transparent;}
+#bdc_shareButtons #bdc_other #ck_ybuzz {background:url('http://cache.boston.com/universal/site_graphics/icons/yahoobuzz.png') no-repeat scroll 0 2px transparent;}
+#bdc_shareButtons #bdc_other #ck_sharethis {background:url('http://cache.boston.com/universal/site_graphics/icons/sharethis.png') no-repeat scroll 0 2px transparent;}
+#bdc_other .relatedYahooB, #bdc_other .relatedShareThis {display:block; float:left;}
+#bdc_other .relatedShareThis {margin-left:20px;}
+#bdc_shareButtons #bdc_other .relatedShareThis a.stbutton {padding:0 8px 2px 20px;}
+#bdc_shareButtons #bdc_other .relatedYahooB a {margin:0; padding:0;}
+#bdc_shareButtons ul.share_trio #bdc_other {border-bottom:none;}
+ul#artShareTools li#shareComments a#commentCount {font-weight:normal; font-size:inherit; line-height:inherit; background:url("http://cache.boston.com/universal/site_graphics/icon_blue_comments_round.gif") no-repeat 1px 0 transparent; padding:0 0 2px 19px;}
+#sharetoolContainer #shareEmail {display:none;}
+
+#bdc_shareButtons .db-wrapper span span .db-compact .db-copy {display:none;}
+#bdc_shareButtons #bdc_digg .db-wrapper span span .db-compact .db-anchor {background:url('http://cache.boston.com/universal/site_graphics/icons/digg.png') no-repeat scroll 0 3px transparent;}
+
+#bdc_shareButtons ul.share_trio #bdc_digg {display:none;}
+#relatedContent .outset {margin:0; padding:0;}
+
+/* Stub Styles */
+.dangerDanger {line-height:19px; background: url(http://cache.boston.com/universal/site_graphics/bgcom_alerticon_stub.png) no-repeat; padding-left:30px; font-weight:bold; font-size:12px; color:#464646; font-family:Arial; padding-top:2px; margin:10px 0;}
+#globeSubBox {width:539px; border-top: 3px solid #b7cdff; background-color: #ebf4fb; font-family: Arial, Helevtica, sans-serif; font-size:12px;}
+#globeSubBox #subCont {margin-bottom:10px; padding:10px 0 0 10px;}
+#globeSubBox .leftButtons {float:left; padding: 10px; border-right: 1px dotted #3F5F9C; width: 249px}
+#globeSubBox .rightButtons {float:right; margin:10px; width: 249px}
+#globeSubBox .rightButtons h4, #globeSubBox .leftButtons h4 {margin-bottom:10px; font-size: 15px;}
+a.subButton:hover, a.subButton:link, a.subButton:visited. {color:#fff; font-family: arial; font-weight:bold; font-size:12px; text-decoration:none; width:100px; display:block; text-align:center; background-color:#2952a2; line-height:21px}
+#bgcomLogo {margin:0 auto; display:block; text-align:center; padding:10px 0;}

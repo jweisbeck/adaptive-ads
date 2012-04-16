@@ -1,0 +1,227 @@
+/*
+*	Brand spanking new CSS for Boston.com article pages
+*/
+
+body{
+	background:#eee;
+}
+
+/* Page-wide Styles */
+#contain {
+  margin: 0 auto;
+  background: white;
+  position: relative;
+  padding: 0 13px 10px 13px;
+  width: 961px;
+}
+p{
+	margin:1em 0;
+}
+
+/* 
+* = = = = = = = = = = = = = = = = = = = = 
+*	Main Content 
+* = = = = = = = = = = = = = = = = = = = = 
+*/
+#content{
+	padding-bottom:0;
+}
+.article {
+	background-image:none;
+}
+
+/* 
+* = = = = = = = = = = = = = = = = = = = = 
+*	Column One 
+* = = = = = = = = = = = = = = = = = = = = 
+*/
+.right-rail .article #Col1 {
+	width:569px;
+	padding:10px 35px 0 0;
+	margin:0;
+	background:url(../images/article-right-rail-shadow.png) repeat-y right;
+}
+.left-rail .article #Col1 {
+	float:right;
+	width:569px;
+	padding:10px 0 0 35px;
+	margin:0;
+	background:url(../images/article-left-rail-shadow.png) repeat-y left;
+}
+
+/* 
+* = = = = = = = = = = = = = = = = = = = = 
+*	Column Two 
+* = = = = = = = = = = = = = = = = = = = = 
+*/
+.right-rail .article #Col2 {
+	width:344px;
+	padding:10px 0 0 0;
+}
+.left-rail .article #Col2 {
+	float:left;
+	width:344px;
+	padding:10px 0 0 0;
+}
+.article #Col2 #rightAd{
+	padding:0;
+	border:none;
+}
+.sidebar-section{
+	border-top:4px solid #3c5e9d;
+	padding:3px 0 40px 0;
+}
+.article #Col2 #rightAd, .sidebar-ad{
+	padding:0 0 40px 0;
+}
+
+/* Twitter Box */
+#twitter_div h3.sectionHeader{
+	background:none;
+	padding:0;
+	margin-bottom:5px;
+}
+#twitter_div h3.sectionHeader a{
+	background:none;
+}
+#twitter_div p.tweets-link {
+	margin:0;
+	font-size: 15px;
+	font-weight:bold;
+	line-height: 17px;
+}
+ul#twitter_update_list{
+	height: 250px !important;
+	margin-bottom:0;
+	border:1px solid #e8eced;
+}
+.like-and-follow{
+	background:#ededed;
+	padding:3px 7px;
+	color:#959394;
+}
+.like-and-follow li{
+	background:url(http://www.placehold.it/15x15) no-repeat left center;
+	padding:7px 0 7px 25px;
+}
+/* Most Emailed Box */
+.article #Col2 #mostPopular {
+	padding:3px 0 40px 0;
+	margin:0;
+	border-top:4px solid #3c5e9d;
+	border-bottom:none;
+}
+.article #Col2 #mostPopular h3 {
+	padding-bottom:5px;
+}
+#mostPopular ol.linklist{
+	padding-top:6px;
+	list-style:decimal;
+	border-top:1px dotted #3E5F9D;
+}
+#mostPopular ul.linklist{
+	list-style:disc;
+}
+/* Inside Boston.com */
+#inside-bcom li{
+	clear:both;
+	overflow:hidden;
+	padding:20px 0;
+	border-top:1px solid #eee;
+}
+#inside-bcom li.first-child{
+	border:none;
+	padding-top:10px;
+}
+#inside-bcom li a{
+	display:block;
+	height:115px;
+}
+#inside-bcom img{
+	float:left;
+	margin:0 15px 0 0;
+}
+#inside-bcom p{
+	margin:0;
+}
+#inside-bcom p.lead-in{
+	margin-bottom:8px;
+	color:#666;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#inside-bcom p.caption{
+	color:#3c5e9d;
+	font-size:16px;
+	line-height:22px;
+	font-weight:bold;
+}
+
+/* Inside Boston.com /
+#inside-bcom{
+	clear:both;
+	padding:13px 0 25px;
+	border-top:4px solid #256099;
+	overflow:hidden;
+	font-weight:bold;
+	line-height:12px;
+}
+#inside-bcom h1{
+	font-size:11px;
+	line-height:18px;
+	color:#666;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#inside-bcom h1.aside-heading{
+	color:#000;
+	font-size:14px;
+	line-height:16px;
+}
+#inside-bcom img{
+	border:1px solid #989898;
+}
+#inside-bcom a:hover{
+	border-bottom:none;
+}
+#inside-bcom .featured li{
+	float:left;
+	width:207px;
+	line-height:12px;
+}
+#inside-bcom .featured a{
+	display:block;
+	padding:20px 13px;
+}
+#inside-bcom .featured a:hover{
+	background:#B7DCFF;
+}
+#inside-bcom .plus{
+	line-height:14px;
+	float:left;
+	padding:20px 0 0 10px;
+}
+#inside-bcom .plus ul{
+	padding:3px 0 0 16px;
+	list-style:disc;
+	color:#00529e;
+}
+
+/* Sponsor Links /
+.sponsor-links{
+	clear:both;
+	overflow:hidden;
+	padding:35px 13px 20px;
+	font-weight:normal;
+	text-align:center;
+	line-height:1.2em;
+}
+.sponsor-links div{
+	float:left;
+	width:150px;
+	margin:0 20px;
+}
+#inside-bcom .sponsor-links img{
+	border:none;
+}
+*/

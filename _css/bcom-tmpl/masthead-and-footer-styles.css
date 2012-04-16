@@ -1,0 +1,252 @@
+/*
+*	Masthead + Footer Styles for Boston.com
+*/
+
+/* 
+= = = = = = = = = = = = = = = = = = = =
+*	Masthead 
+= = = = = = = = = = = = = = = = = = = =
+*/
+
+#masthead {
+  padding-top: 10px;
+}
+.bcom_logo a {
+  background: url(http://cache.boston.com/universal/site_graphics/bcom_logo_internal.png) no-repeat;
+  text-indent: -999px;
+  display: block;
+  width: 163px;
+  height: 41px;
+}
+#masthead .promo {
+  margin-bottom: 5px;
+}
+.masthead-login {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  margin-right: 10px;
+}
+.masthead-login a {
+  text-decoration: none;
+}
+.mini-nav {
+  width:100%;
+  margin-bottom: 10px;
+  float: right;
+  clear: right;
+}
+.masthead-search .masthead-links {
+  height: 25px;
+}
+.masthead-search .masthead-links li {
+  float: left;
+  padding-right: 4px;
+}
+.masthead-search .masthead-links li a {
+  color: #474747;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.mini-nav .masthead-search {
+  width: 213px;
+  float: left;
+}
+#bostonDeals {
+  float: right;
+  display: block;
+  position: relative;
+  margin:0 0 10px 0;
+  font-family: Georgia, Times, Serif;
+  font-size: 12px;
+  line-height: 23px;
+}
+.bostonDealsHeader {
+  display:block;
+  float:left;
+  background:URL(http://cache.boston.com/universal/site_graphics/boston_deals_internal.png) no-repeat;
+  height:20px;
+  width:109px;
+  margin-right:6px;
+}
+#bdeals{
+  max-width:650px; 
+  color: #535353; 
+  font-family: Georgia, Times, Serif; 
+  margin:0; 
+  text-align: right;
+}																			    
+#bdeals .getdeal {
+  margin-left:5px;
+  font-family:arial;
+}
+.mini-nav .advertisement {
+  width: 728px;
+  height: 90px;
+  float: left;
+  margin: 0 0 0 20px;
+  background: red;
+}
+.mini-nav .masthead-input {
+  border: 1px #CCC solid;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  color: #AAA;
+  height: 21px;
+  position: relative;
+  top: 1px;
+  width: 168px;
+}
+.mini-nav .masthead-button {
+  background: #EDEDED url(http://cache.boston.com/universal/site_graphics/search_icon_hp.png) no-repeat center;
+  border: 1px #CCC solid;
+  border-left: none;
+  text-indent: -9999px;
+  height: 23px;
+  width: 21px;
+  position: relative;
+  left: -4px;
+}
+
+/* global navigation */
+
+#primary {
+  position: relative;
+  border-bottom: solid 1px #006;
+  height: 31px;
+  overflow: hidden;
+  clear: both;
+}
+#primary ul {
+  display: inline-block;
+  width: 101%;
+}
+#primary li {
+  display: block;
+  width: auto;
+  float: left;
+  border-right: dotted 1px #fff;
+  height: 31px;
+}
+#primary a {
+  float: left;
+  color: #203C73;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+}
+#primary .section-nav {
+  background: #89c3eb; /* Old browsers */
+  background: -moz-linear-gradient(top,  #89c3eb 0%, #c8e0f4 4%, #d5ebfb 18%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#89c3eb), color-stop(4%,#c8e0f4), color-stop(18%,#d5ebfb)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #89c3eb 0%,#c8e0f4 4%,#d5ebfb 18%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #89c3eb 0%,#c8e0f4 4%,#d5ebfb 18%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #89c3eb 0%,#c8e0f4 4%,#d5ebfb 18%); /* IE10+ */
+  background: linear-gradient(top,  #89c3eb 0%,#c8e0f4 4%,#d5ebfb 18%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89c3eb', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */
+}
+#primary .classified-nav {
+  background: #5faddd; /* Old browsers */
+  background: -moz-linear-gradient(top,  #5faddd 0%, #b8e1fc 3%, #86b5e8 99%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5faddd), color-stop(3%,#b8e1fc), color-stop(99%,#86b5e8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #5faddd 0%,#b8e1fc 3%,#86b5e8 99%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #5faddd 0%,#b8e1fc 3%,#86b5e8 99%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #5faddd 0%,#b8e1fc 3%,#86b5e8 99%); /* IE10+ */
+  background: linear-gradient(top,  #5faddd 0%,#b8e1fc 3%,#86b5e8 99%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5faddd', endColorstr='#86b5e8',GradientType=0 ); /* IE6-9 */
+}
+#primary .section-nav a:hover {
+  background: #3F5F9C;
+  color: #fff;
+}
+#secondary {
+  background: #E5E5E5;
+}
+#secondary li {
+  display: inline-block;
+}
+#secondary li a {
+  display: inline-block;
+  padding: 8px 6px;
+  color: #464646;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+#secondary li a:hover {
+  border-bottom:none;
+  color:#000;
+}
+.section-nav li a, .classified-nav li a {
+  display: inline-block;
+  padding: 12px 8px 7px 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #203C73;
+}
+#primary .classified-nav li a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#primary li.classified-nav .re {
+  border-right: none;
+}
+nav .active {
+  font-weight: bold;
+  color: #000;
+}
+
+/* 
+= = = = = = = = = = = = = = = = = = = =
+*	Footer 
+= = = = = = = = = = = = = = = = = = = =
+*/
+
+footer{
+	padding:0;
+	background:#E5E5E5;
+	color:#464646;
+	text-align:center;
+}
+footer a:hover{
+	text-decoration:underline;
+}
+footer .primary{
+	padding:5px 0;
+	background:#fff;
+	border-top:1px dotted #3f5f9c;
+	border-bottom:1px dotted #3f5f9c;
+}
+footer .secondary{
+	padding:4px 0;
+	border-bottom:1px dotted #3f5f9c;
+}
+footer .secondary nav{
+	padding:2px 0;
+}
+footer li{
+	display:inline-block;
+	padding:0 1px 0 4px;
+	border-left:1px solid #bbb;
+}
+footer li.first-child{
+	border:none;
+}
+footer .secondary li.first-child{
+	text-transform:uppercase;
+}
+footer .secondary a{
+	color:#464646;
+}
+.sub-footer-advertisement {
+  width: 768px;
+  height: 90px;
+  background: red;
+  margin:20px auto 10px auto;
+}

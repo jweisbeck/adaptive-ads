@@ -1,0 +1,538 @@
+/* Global styles */
+img, object, video {
+	max-width: 100%;
+}
+body {
+	background: #FFF;
+	font: normal 62.5% Helvetica, Arial, sans-serif;
+	color: #464646;
+	padding-bottom: 20px; /* make room for the tray */
+}
+.mod {
+	zoom: 1;
+}
+.group {
+	float: left;
+	clear: left;
+}
+.group-alt {
+	float: right;
+	clear: right;
+}
+.search-inputs input {
+	margin: 0;
+	outline: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 0;
+}
+
+/*
+	--------
+	#contain
+	--------
+*/
+#contain {
+	width: 93%;
+	margin: 0 auto 10px;
+}
+.ad {
+	margin: 0 auto;
+}
+/* 
+	--------
+	<header>
+	--------
+*/
+/* Masthead */
+#masthead {
+	position: relative;
+}
+#masthead .promo {
+	margin-bottom: 5px;
+	display: block;
+	width: 100%;
+	position: relative;
+}
+#bdeals {
+	text-align: center;
+}
+.mini-nav .masthead-search {
+	float: none;
+	clear: both;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.masthead-search .masthead-links {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+.masthead-search .masthead-links li {
+	float: none;
+}
+.masthead-input {
+	border: 1px #CCC solid;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	color: #AAA;
+	height: 21px;
+	position: relative;
+	top: 1px;
+	width: 80%;
+}
+.masthead-button {
+	background: #EDEDED url(http://cache.boston.com/universal/site_graphics/search_icon_hp.png) no-repeat center;
+	border: 1px #CCC solid;
+	border-left: none;
+	text-indent: -9999px;
+	height: 23px;
+	width: 21px;
+	position: relative;
+	left: -4px;
+}
+.mini-nav .ad {
+	background-color: transparent;
+}
+.mini-nav .ad-centered {
+	margin: 0 auto;
+	display: block;
+	height: 100%;
+	text-align: center;
+}
+.bcom_logo {
+	width: 100%;
+	margin: 0 auto;
+}
+.bcom_logo a {
+	background-position: 50% 10px;
+	width: 100%;
+	height: 50px;
+	text-indent: -9999px;
+}
+
+/* Navigation */
+#primary ul.reel-content-closed,
+#primary ul.reel-closed,
+#secondary ul.reel-content-closed,
+#secondary ul.reel-closed {
+	display: none;
+}
+.sections-heading,
+#primary ul.reel-open,
+#secondary ul.reel-open {
+	display: block;
+	position: relative;
+	clear: both;
+}
+
+/* reeled in (collapsed) nav styles */
+.sections-heading {
+	width: 100%;
+	border: 1px solid #ddd;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: -2px;
+}
+#primary {
+	overflow: visible;
+	display: block;
+	float: left;
+	clear: none;
+	position: relative;
+	height: 100%;
+	width: 35%;
+	border-bottom: none;
+}
+#primary h1.sections-heading,
+#secondary h1.sections-heading,
+#primary h1.sections-heading a,
+#secondary h1.sections-heading a {
+	display: block;
+	padding: 0;
+	float: none;
+	text-align: center;
+	white-space: nowrap;
+	color: #203C73;
+}
+#primary ul,
+#secondary ul {
+	border-bottom: none;
+	border-right: none;
+	display: none;
+}
+#primary ul {
+	width: 100%;
+}
+#primary li {
+	float: none;
+	width: 50%;
+	float: left;
+	clear: none;
+	border: none;
+}
+#secondary li a,
+#secondary li a:hover,
+#primary li a {
+	padding: .7em .8em;
+	margin: -1px 0 0 -1px;
+	display: block;
+	float: none;
+	border: 1px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#secondary {
+	background-color: transparent;
+	border: none;
+	float: left;
+	clear: none;
+	position: relative;
+	width: 35%;
+	height: 100%;
+	overflow: visible;
+	margin-left: 1px;
+}
+#secondary li {
+	width: 50%;
+	float: left;
+	clear: none;
+}
+#secondary a {
+	color: #203C73;
+	
+}
+#secondary li a:link,
+#secondary li a:visited,
+#secondary li a:hover {
+	color: #203C73;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.site-search-mast {
+	display: none;
+}
+.site-search-nav {
+	width: 29%;
+	float: right;
+	text-align: right;
+	overflow: visible;
+	height: 0;
+}
+.site-search-nav .search-inputs{
+	text-align: right;
+	float: left;
+	position: relative;
+	width: 100%;
+	
+}
+.site-search-nav .masthead-input {
+	width: 73%;
+	padding: .95em .2em;
+	top: 0;
+	left: auto;
+	float: none;
+	height: auto;
+}
+.site-search-nav .masthead-button {
+	padding: .95em 1.5em;
+	height: 35px;
+	width: 40px;
+	float: right;
+	left: auto;
+}
+
+/*
+	--------------
+	#MAIN #CONTENT
+	--------------
+*/
+#main {
+	clear: both;
+	zoom: 1;
+	float: none;
+	display: block;
+	position: relative;
+	padding-top: 20px;
+}
+#content {
+	width: auto;
+	clear: both;
+	display: block;
+}
+
+/* Col1 */
+.right-rail .article #Col1{
+	width: 59.209157127991675338%; /* 569/961 */
+	padding: 0;
+}
+
+
+/* Col2 */
+.right-rail .article #Col2{
+	width: 35.796045785639958376%; /* 344/961 */
+	padding: 0;
+	
+}
+
+
+
+/*
+	--------
+	<footer>
+	--------
+*/
+/* .primary */
+/* .secondary */
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 500px), print {
+	#primary,
+	#secondary {
+		width: 48%;
+	}
+	
+	.site-search-nav {
+		float: left;
+		width: 100%;
+		left: 0;
+		text-align: left;
+		height: auto;
+		padding-top: 10px;
+	}
+	.site-search-nav .masthead-button {
+		float: left;
+		left: 0;
+		width: 30px;
+	}
+	.site-search-nav .masthead-input {
+		float: left;
+		width: auto;
+	}
+	.masthead-login {
+		display: block;
+		float: none	;
+	}
+
+	.article #articleMasthead .breadcrumb {
+		display: block;
+		clear: both;
+		float: none;
+	}
+	.article #Col1 #articleText {
+		margin: 40px 0 0 0;
+	}
+
+	#sharetoolContainer.tools-top {
+		display: none;
+	}
+	#sharetoolContainer ul {
+		height: 100%;
+	}
+	#sharetoolContainer ul li {
+		margin-top: 10px;
+		float: none;
+		clear: both;
+	}
+
+	
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 670px), print{
+	.site-search-nav {
+		width: 29%;
+		left: 0;
+		text-align: left;
+		height: auto;
+	}
+	.site-search-nav .masthead-button {
+		left: 0;
+		width: 30px;
+	}
+	.site-search-nav .masthead-input {
+		width: 67%;
+	}
+	.masthead-login {
+		display: block;
+		float: none	;
+	}
+
+}
+@media screen and (max-width: 670px), print {
+	#primary li,
+	#secondary li {
+		float: none;
+		width: 100%;
+	}
+	#secondary li a,
+	#secondary li a:hover {
+		margin-top: -1px;
+	}
+	#primary li a {
+		margin-top: 0;
+	}
+	
+}
+@media screen and (min-width: 1020px), print {
+
+	.mini-nav .masthead-search{
+		width: 22.164412070759625390%; /* 213/961 */
+		float: left;
+		clear: left;
+	}
+	.mini-nav .masthead-search ul li {
+		float: left;
+	}
+	.bcom_logo a {
+		background-position: 0 0;
+		height: 40px;
+	}
+	.mini-nav .ad {
+		width: 75.754422476586888657%; /* 728/961 */
+		height: 90px;
+		background-color: #C00;
+		float: right;
+		clear: right;
+		background-color: transparent;
+	}
+	
+}
+@media screen and (max-width: 900px), print {
+	.right-rail .article #Col1 {
+		width: 100%;
+		display: block;
+		float: none;
+		clear: none;
+	}
+	.right-rail .article #Col2 {
+		width: 100%;
+		display: block;
+		float: none;
+		clear: none;
+	}
+}
+
+@media screen and (min-width: 920px), print {
+	/* Navigation */
+	#primary {
+		position: relative;
+		zoom: 1;
+		text-align: center;
+		width: auto;
+		float: none;
+		clear: both;
+		border-bottom: solid 1px #006;
+		margin-right: 0;
+		background: #89C3EB;
+		background: -moz-linear-gradient(top, #89C3EB 0%, #C8E0F4 4%, #D5EBFB 18%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#89C3EB), color-stop(4%,#C8E0F4), color-stop(18%,#D5EBFB));
+		background: -webkit-linear-gradient(top, #89C3EB 0%,#C8E0F4 4%,#D5EBFB 18%);
+		background: -o-linear-gradient(top, #89C3EB 0%,#C8E0F4 4%,#D5EBFB 18%);
+		background: -ms-linear-gradient(top, #89C3EB 0%,#C8E0F4 4%,#D5EBFB 18%);
+		background: linear-gradient(top, #89C3EB 0%,#C8E0F4 4%,#D5EBFB 18%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89c3eb', endColorstr='#d5ebfb',GradientType=0 );
+	}
+	#primary ul {
+		width: 100%;
+		display: table;
+		border-collapse: collapse;
+	}
+	.ie6 #primary ul,
+	.ie7 #primary ul {
+		display: block;
+	}
+	#primary ul li{
+		width: auto;
+		float: none;
+		clear: none;
+		display: table-cell;
+		border-right: dotted 1px white;
+	}
+	.ie6 #primary ul li,
+	.ie7 #primary ul li{
+		display: inline;
+	}
+	#primary li a {
+		display: inline-block;
+		text-align: center;
+		padding: 1em 5px;
+		white-space: nowrap;
+		overflow: visible;
+		float: none;
+		border: none;
+	}
+	.ie7 #primary ul li a{
+		padding: 10px 7px;
+	}
+
+	#secondary {
+		background-color: #e5e5e5;
+		width: 100%;
+	}
+	#secondary li {
+		float: none;
+		clear: none;
+		width: auto;
+	}
+	#secondary li a:link,
+	#secondary li a:hover {
+		float: left;
+		border: none;
+		color: #464646;
+		font-size: 11px;
+	}
+	.ie7 #secondary ul li,
+	.ie6 #secondary ul li{
+		display: inline;
+	}
+
+	.site-search-nav {
+		display: none;
+	}
+	.site-search-mast {
+		display: block;
+	}
+
+
+	.reel-content-closed {
+		display: block; /* collapsible nav is disabled from this breakpoint up */
+	}
+	/* if reel-closed applied by js, reset to show if viewport width jumps into this breakpoint */
+	#primary ul.reel-content-closed,
+	#primary ul.reel-closed,
+	#primary ul.reel-open {
+		display: table;
+	}
+	#secondary ul.reel-content-closed {
+		display: block;
+	}
+	
+	/* Collapsible nav is disabled, so hide headings, but leave markup for accessibility */
+	.sections-heading {
+		position: absolute;
+		left: -99999px;
+	}
+	
+}
+
+
+
+@media screen and (min-width: 1200px), print {
+	#contain {
+		width: 1200px;
+	}

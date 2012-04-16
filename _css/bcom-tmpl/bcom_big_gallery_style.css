@@ -1,0 +1,355 @@
+body.jobs #headL #mastHead {margin-top:5px;}
+
+.bigPhoto {background-image:url(http://cache.boston.com/universal/site_graphics/11_3.gif);margin-top:15px;}
+#galleryShell {padding:0; width:100%;border:none;margin-top:15px;}
+#galleryShell #top {height:100%;margin-bottom: 20px;width: 749px;padding-bottom: 0;}
+
+#yourTown #content.bigPhoto.gallery {margin-top: 10px; } 
+#yourTown #galleryShell #top {height: auto; }
+#yourTown div.gallery #Col2 {width:176px; padding-left: 13px;   text-align: center;  } 
+#yourTown #photoCaption.tt {font-family: "Georgia","Times New Roman",Times,serif ; padding-right: 10px;  } 
+
+#Col1 {width:749px;float:left;margin:0pt 20px 0 0;padding:0;}
+#Col2 {width:189px;margin:0;padding:0;}
+div.gallery #top h2 {margin-bottom:0;width:100%;line-height:27px;}
+#galleryShell h3 {margin-bottom:4px;}
+#titleBar {float:left;position:relative;margin-right:20px;width:468px;}
+#titleBar .byline {color:#272727;font-family:Arial,Helvetica,Verdana,sans-serif;font-size:11px;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;margin-top:5px;}
+#navButtons {float:left;position:relative;width:211px;}
+#photoContent {margin-top:10px;margin-bottom:10px;}
+.captionCol {float:left;position:relative;width:199px;margin-right:10px;}
+.photoCol {float:left;position:relative;width:540px;}
+.photoCol .attr {float:right;}
+.photoCol .credit {font-weight:normal;margin-top:3px;text-align:center;width:100%;}
+.Photo {text-align:center;}
+#galleryShell #photoCaption {padding:0;}
+#photoCaption {margin-bottom:20px;  line-height:18px; font-size:14px;}
+#photoCaption p {margin-top:7px;}
+.pRelated {margin-bottom:20px;}
+.numNav {margin-top:10px;}
+.sharingTools {margin:10px 0 20px 0;}
+
+div.gallery #galleryShell #photoNav {float:left;list-style-type:none;margin:0;padding:0;width:261px;}
+div.gallery #galleryShell #photoNav li {font-family:arial,helvetica,verdana,sans-serif;font-size:12px;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:bold;line-height:18px;text-align:center; width: 95px; }
+div.gallery #galleryShell #photoNav li.prev {float:left;position:relative;}
+div.gallery #galleryShell #photoNav li.next {float:left;position:relative;}
+div.gallery #galleryShell #photoNav li.next, #photoNav li.prev {}
+div.gallery #galleryShell #photoNav li.next a, #photoNav li.prev a {border:1px solid #999999;color:#000000;display:block;height:15px;text-decoration:none;width:55px;}
+div.gallery #galleryShell #photoNav li a.arrowRight {background-image:url(http://graphics.boston.com/_webdesignready/2009/ae/_oscars/images/arrow_nextbg.gif);background-position:92% 84%;background-repeat:no-repeat;padding:7px 27px 7px 7px;text-align:center;}
+div.gallery #galleryShell #photoNav li a.arrowLeft {background-image:url(http://graphics.boston.com/_webdesignready/2009/ae/_oscars/images/arrow_prevbg.gif);background-position:8% 84%;background-repeat:no-repeat;padding:7px 7px 7px 27px;text-align:center;}
+div.gallery #galleryShell #photoNav li a.arrowLeft:hover {background-position:8% 14%;border-color:#002878;}
+div.gallery #galleryShell #photoNav li a.arrowRight:hover {background-position:92% 14%;border-color:#002878;}
+div.gallery #galleryShell #photoNav li.pagination {float:left;color:#000000;font-size:11px;font-weight:normal;margin:0 8px;position:relative;top:7px;width:55px;}
+div.gallery #galleryShell #photoNav li.prev.inactive a.arrowLeft {background-image:url(http://graphics.boston.com/_webdesignready/2009/ae/_oscars/images/arrow_prevbg_inactive.gif);border-color:#999999;color:#999999;}
+div.gallery #galleryShell #photoNav li.next.inactive a.arrowRight {background-image:url(http://graphics.boston.com/_webdesignready/2009/ae/_oscars/images/arrow_nextbg_inactive.gif);border-color:#999999;color:#999999;}
+div.gallery #galleryShell #photoNav li.prev.inactive a.arrowLeft:hover {background-position:8% 84%;cursor:default;}
+div.gallery #galleryShell #photoNav li.next.inactive a.arrowRight:hover {background-position:92% 84%;cursor:default;}
+
+
+/* Number Nav 
+========================================*/
+
+
+div.numNav {
+	   margin:10px auto;
+	   text-align:center;
+	   width:415px;
+	   height: 25px
+	   }
+
+
+div.numNav ul {
+	   display:table;
+	   height:25px;
+	   margin:auto;	
+	   }
+	   
+div.numNav ul li {
+	   display: block;
+	   float: left;
+	   list-style-type:none;
+padding:0;}
+
+div.numNav ul {
+	   
+	   list-style-type:none;
+	   
+	   overflow:hidden;
+	   padding:0;
+	   }
+
+div.numNav ul li a {
+	   background:#FFFFFF none repeat scroll 0;
+	   border:1px solid #E5E5E5;
+	   color:#2851A2;
+	   display:block;
+	   float:left;
+	   font:bold 12px Arial, Helvetica, Verdana, sans-serif;
+	   margin:1px;
+	   overflow:hidden;
+	   text-align:center;
+	   text-decoration:none;
+	   }
+
+div.gallery #galleryShell div.numNav ul li a:hover {
+	   border-color: #002878;
+	   color: #002878;
+	   }
+
+div.numNav ul li.number a, div.numNav ul li.numberActive a {
+		height:14px;
+		padding:1px 2px;
+		width:20px;
+		}
+
+
+div.numNav li.ellipses {
+	   border:none;
+	   height:14px;
+	   width:20px;
+	   position: relative;
+	   top: 4px;
+	   }
+
+div.numNav ul li.ellipses:hover {
+color:#3F5F9C;
+}
+
+
+div.numNav ul li:hover {
+border-color:#3F5F9C;
+color:#FFFFFF;
+text-decoration:none;
+}
+
+div.numNav ul li.numberActive a {
+	   color:#000000;
+	   text-decoration:none;
+	   border-color: #fff;
+	   }
+
+div.gallery #galleryShell div.numNav ul li.numberActive a:hover {
+cursor: default;
+color:#000000;
+text-decoration:none;
+border-color: #fff;}
+
+/* Left and Right arrows, absolutely positioned, condensed styling, added inactive states
+========================================*/
+
+div.gallery #galleryShell div.numNav a.arrowLeft,
+div.gallery #galleryShell div.numNav a.arrowRight {
+	   position: absolute;
+	   display: block;
+	   font-weight: normal;		
+	   border:1px solid #E5E5E5;
+	   }
+ 
+
+div.gallery #galleryShell div.numNav a.arrowLeft {
+	   background:url(http://cache.boston.com/universal/site_graphics/left_blue_arrow.jpg) no-repeat 12% 50%;
+	   margin-left:4px;
+	   padding:1px 8px 1px 14px;
+	   text-align:left;
+	   float:left;
+	   left: 0;
+	   }
+
+div.gallery #galleryShell div.numNav a.arrowRight {
+	   background:url(http://cache.boston.com/universal/site_graphics/blue_arrow.gif) no-repeat 88% 50%;
+	   margin-right:4px;
+	   padding:1px 14px 1px 8px;
+	   text-align:right;
+	   float: right;
+	   left:482px;
+	   }
+
+div.gallery #galleryShell div.numNav li.inactive a:hover {
+	   cursor: default;
+	   border-color: #e5e5e5;
+	   color: #999;
+	   }
+
+div.gallery #galleryShell div.numNav li.inactive a.arrowLeft {
+	   background-image: url(http://cache.boston.com/universal/site_graphics/left_grey_arrow.gif);
+	   color: #999;
+	   }
+	   
+div.gallery #galleryShell div.numNav li.inactive a.arrowRight {
+	   background-image: url(http://cache.boston.com/universal/site_graphics/right_grey_arrow.gif);
+	   color: #999;
+	   }
+	   
+
+
+ul#diff {
+list-style-type:none;
+padding:0;
+}
+li.diff {
+margin:0 auto;
+text-align:center;
+}
+
+/* change border color on hover
+========================================== */
+
+ul.numNav li a:hover {
+	  border-color: #002878;
+	  }
+
+.main ul {
+display:inline;
+margin:auto;
+padding:0;
+}
+.main li {
+-moz-box-orient:vertical;
+display:-moz-inline-box;
+}
+.main li.ellipses {
+width:16px;
+}
+.main li.active a {
+border:1px solid black;
+color:black;
+}
+.main li.active a:hover {
+border:1px solid black;
+}
+.main li a {
+-moz-box-orient:vertical;
+border:1px solid #E5E5E5;
+display:-moz-inline-box;
+float:left;
+height:14px;
+width:24px;
+}
+.main li a:hover {
+border-color:#3F5F9C;
+text-decoration:none;
+}
+span.main {
+float:left;
+text-align:center;
+width:430px;
+}
+
+.sharingTools {font:12px arial;text-align:center;}
+.sharingTools span {padding-right:7px;margin-right:7px;border-right:solid 1px gray}
+.sharingTools span a {position:relative;top:-4px;}
+.sharingTools img {margin-right:7px;}
+#photoBottom {margin-bottom:10px;}
+div.gallery ul.etaf {list-style-type:none;text-align:center;margin:0;padding:0;float:none;width:100%;font-weight:normal;margin-bottom:35px;}
+div.gallery ul.etaf li.email {float:none;font-weight:normal;}
+.sharingTools .email {background-position:left center;background-image: url(http://cache.boston.com/universal/site_graphics/icon_blue_email.gif);background-repeat:no-repeat;padding-left:20px;padding-right:7px;border-right:solid black 1px;}
+.sharingTools .share {background-image: url(share-icon-16x16.png);background-repeat:no-repeat;padding-left:20px;padding-bottom:1px;padding-right:7px;border-right:solid black 1px;margin-left:7px;}
+.sharingTools .yahoo {background-image: url(badge-logo.png);background-repeat:no-repeat;padding-left:20px;padding-bottom:1px;margin-left:7px;}
+#moreStuff {background-image:url(http://www.private.boston.com/universal/site_graphics/3_11.gif);background-repeat:repeat-y;display:none;}
+#more1 {width:189px;float:left;margin-right:10px;position:relative;margin-bottom:20px;height:300px;}
+#more2 {width:539px;float:left;margin-left:10px;}
+.readerComments {height:150px;}
+.pArticleTools {height:150px;margin-top:20px;}
+.scraperAd {text-align:center;}
+
+
+/* New Standard Gallery */
+#content.standardGallery #insideBcom #insideBcom {margin-left:0; }
+#content.standardGallery #insideBcom {width:977px;margin-top:0; margin-left:-10px; background-color:#fff;}
+#bomoms #content.standardGallery #insideBcom {margin-left: 0; } 
+#content.standardGallery #insideBcom #ic4 {display:block;}
+#content.standardGallery #insideBcom #ic5 {display:none;}
+#content.standardGallery #insideBcom h3 {margin-top:0; margin-bottom: 0;  border-top: 4px solid #3f5f9c; background-color:#fff; padding-top:10px; padding-left:10px; border-bottom:none;}
+#content.standardGallery #insideBcom ul.insideBcomList {display:inline; background-color:#fff;}
+#content.standardGallery #insideBcom .insideBcomList li.plusLI * {background-color:#fff;}
+#content.standardGallery #insideBcom li.insideContent {display:block;float:left;width:205px;height:180px;}
+#content.standardGallery #insideBcom li.insideContent a {padding:7px 12px 0 10px;margin:0;}
+#content.standardGallery #insideBcom li.insideContent .insideImg a {padding:2px 10px 0 10px;margin:0;line-height:0;}
+#content.standardGallery #insideBcom li.plusLI {display:block;float:left;width:109px;list-style-type:none;padding:10px 0 0 10px;overflow:hidden;}
+#content.standardGallery #insideBcom li.plusLI li.listPipe {display:none;}
+#content.standardGallery #insideBcom .plusLinks li {list-style-type:disc;}
+#content.standardGallery #insideBcom .plusLI .plusLinks {padding:0 0 0 15px; margin:0; color:#3E5F9D;}
+#content.standardGallery #insideBcom .insideContent a:hover {border-bottom:none; color:#EBF4FB;}
+#content.standardGallery #insideBcom .insideBcomList li.plusLI:hover {background-color:#fff;}
+#content.standardGallery {margin-bottom:0; padding-bottom:0;background: none;}
+#content.standardGallery #Col1 {width:539px; background-color:#fff; overflow:visible;}
+#content.standardGallery #Col1 .photoCol {width:539px;}
+#content.standardGallery #Col2 {width:399px; background-color:#fff; margin-top:0;}
+#content.standardGallery .Photo {margin:0 auto;}
+#content.standardGallery .Photo .credit {text-align:right}
+#content.standardGallery #Col2 #adCENTRAL { position:relative; border-top: 1px dotted #3E5F9D; margin-bottom:10px; border-left: 1px dotted #3e5f9d;}
+#content.standardGallery #Col2 .adContainer {margin:15px auto 0 auto; width:300px;}
+#content.standardGallery #Col2 #photoCaption {height:290px; overflow:hidden; position:relative; text-align:left;}
+#content.standardGallery #adCENTRAL .seeMore { position: absolute; left: 150px; top:-1px; background: #fff; padding:2px 5px; border: 1px dotted #3E5F9D; border-top:none;}
+#content.standardGallery .tt {padding:5px 0 0 0; font-size:14px; line-height:18px;}
+#content.standardGallery #teaseHeadlineHeader {margin-top:5px;}
+#content.standardGallery #photoNav {float:left;list-style-type:none;margin:0;padding:0;width:261px;}
+#content.standardGallery #photoNav li {font-family:arial,helvetica,verdana,sans-serif;font-size:12px;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:bold;line-height:18px;text-align:center; width: 95px; }
+#content.standardGallery #photoNav li.next, #content.standardGallery #photoNav li.prev {float:left;position:relative;}
+#content.standardGallery #photoNav li.next, #photoNav li.prev {}
+#content.standardGallery #photoNav li.next a, #photoNav li.prev a {border:1px solid #999;color:#000;display:block;height:15px;text-decoration:none;width:55px;}
+#content.standardGallery #photoNav li a.arrowRight {background-image:url(http://cache.boston.com/_webdesignready/2009/ae/_oscars/images/arrow_nextbg.gif);background-position:92% 84%;background-repeat:no-repeat;padding:7px 27px 7px 7px;text-align:center;}
+#content.standardGallery #photoNav li a.arrowLeft {background-image:url(http://cache.boston.com/_webdesignready/2009/ae/_oscars/images/arrow_prevbg.gif);background-position:8% 84%;background-repeat:no-repeat;padding:7px 7px 7px 27px;text-align:center;}
+#content.standardGallery #photoNav li a.arrowLeft:hover {background-position:8% 14%;border-color:#002878;}
+#content.standardGallery #photoNav li a.arrowRight:hover {background-position:92% 14%;border-color:#002878;}
+#content.standardGallery #photoNav li.pagination {float:left;color:#000;font-size:11px;font-weight:normal;margin:0 8px;position:relative;top:7px;width:55px;}
+#content.standardGallery #photoNav li.prev.inactive a.arrowLeft {background-image:url(http://cache.boston.com/_webdesignready/2009/ae/_oscars/images/arrow_prevbg_inactive.gif);border-color:#999;color:#999;}
+#content.standardGallery #photoNav li.next.inactive a.arrowRight {background-image:url(http://cache.boston.com/_webdesignready/2009/ae/_oscars/images/arrow_nextbg_inactive.gif);border-color:#999;color:#999;}
+#content.standardGallery #photoNav li.prev.inactive a.arrowLeft:hover {background-position:8% 84%;cursor:default;}
+#content.standardGallery #photoNav li.next.inactive a.arrowRight:hover {background-position:92% 84%;cursor:default;}
+#content.standardGallery .ETAF {margin:15px 0 0 20px;padding:0; height:auto}
+#content.standardGallery .ETAF iframe#bdc_facebook {width:168px; position:relative; top:-2px; pading-right:8px; height:40px;}
+#content.standardGallery .ETAF .etaf {border-left:1px solid #999; padding-left:28px; background-position:8px 3px;}
+#content.standardGallery .ETAF li a {background-position-x:inherit 7px;}
+#content.standardGallery .ETAF li a#ck_facebook {background-position:0 0;}
+#content.standardGallery .ETAF li a#ck_twitter {background-position:0 0;}
+#content.standardGallery .ETAF li a#ck_digg {background-position:0 0;}
+#content.standardGallery .ETAF li a#ck_sharethis {background-position:0 0px;}
+#content.standardGallery #photoRelated {margin-top:15px;}
+#content.standardGallery #titleBar #projectName {float:left; padding:0 5px; margin: 8px 10px 0 0; border-right:1px solid #272727; text-transform:uppercase; color:#272727;}
+#content.standardGallery #titleBar h1 {display:inline; clear:left; overflow:hidden; height:33px;}
+#content.standardGallery #titleBar {margin-bottom:10px; overflow:hidden; height:33px;}
+#content.standardGallery #photoBottom {margin-top:15px;}
+
+#content.standardGallery div.numNav { margin:10px auto 0 auto; text-align:center; width:415px; height: 20px; }
+#content.standardGallery div.numNav ul {display:table; height:25px; margin:auto;}
+#content.standardGallery div.numNav ul li {display: block; float: left;list-style-type:none;padding:0;}
+#content.standardGallery div.numNav ul {list-style-type:none;overflow:hidden;padding:0;}
+#content.standardGallery div.numNav ul li a {background:#fff none repeat scroll 0; border:1px solid #E5E5E5; color:#2851A2;  display:block; float:left; font:bold 12px Arial, Helvetica, Verdana, sans-serif; margin:1px; overflow:hidden; text-align:center; text-decoration:none; }
+#content.standardGallery div.gallery #galleryShell div.numNav ul li a:hover {  border-color: #002878; color: #002878; }
+#content.standardGallery div.numNav ul li.number a, div.numNav ul li.numberActive a {height:14px;padding:1px 2px;width:20px;}
+#content.standardGallery div.numNav li.ellipses { border:none; height:14px; width:20px; position: relative; top: 4px; }
+#content.standardGallery div.numNav ul li.ellipses:hover {color:#3F5F9C;}
+#content.standardGallery div.numNav ul li:hover {border-color:#3F5F9C;color:#fff;text-decoration:none;}
+#content.standardGallery div.numNav ul li.numberActive a { color:#000; text-decoration:none; border-color: #fff; }
+
+#content.standardGallery div.numNav ul li.numberActive a:hover {cursor: default;color:#000;text-decoration:none;border-color: #fff;}
+#content.standardGallery div.numNav a.arrowLeft,
+#content.standardGallery div.numNav a.arrowRight { position: absolute; display: block; font-weight: normal; border:1px solid #E5E5E5; }
+#content.standardGallery div.numNav a.arrowLeft { background:url(http://cache.boston.com/universal/site_graphics/left_blue_arrow.jpg) no-repeat 12% 50%; margin-left:4px; padding:1px 8px 1px 14px; text-align:left; float:left; left: 0; }
+#content.standardGallery div.numNav a.arrowRight { background:url(http://cache.boston.com/universal/site_graphics/blue_arrow.gif) no-repeat 88% 50%; margin-right:4px; padding:1px 14px 1px 8px; text-align:right; float: right; left:482px; }
+#content.standardGallery div.numNav li.inactive a:hover { cursor: default; border-color: #e5e5e5; color: #999; }
+#content.standardGallery div.numNav li.inactive a.arrowLeft { background-image: url(http://cache.boston.com/universal/site_graphics/left_grey_arrow.gif); color: #999; }
+#content.standardGallery div.numNav li.inactive a.arrowRight { background-image: url(http://cache.boston.com/universal/site_graphics/right_grey_arrow.gif); color: #999; }
+#content.standardGallery #titleBar {margin-top:10px; margin-right:0; width:539px;}
+#content.standardGallery #titleBar h1 {font-size:24px; line-height:25px;}
+#content.standardGallery #photoNav {margin:8px 0 7px 0;}
+#content.standardGallery .ETAF {margin-left:0;}
+#content.standardGallery .ETAF li a {margin-right:9px; padding-right:9px;}
+#content.standardGallery .ETAF #ck_sharethis {padding-right:0;margin-right:0;}
+#content.standardGallery #Col2 #photoCaption {margin-bottom:0;}
+#content.standardGallery #Col2 #photoCaption p:last-child {margin-bottom:0;}
+#content.standardGallery #Col2 #adCENTRAL {margin-top:10px; margin: 0; }
+#content.standardGallery #Col2 .seeMore {padding:0 5px;}
+#content.standardGallery #Col2 .seeMore .smContainer {position:relative;top:-5px;}
+#content.standardGallery #Col2 .byline {color:#272727;font-family:Arial,Helvetica,Verdana,sans-serif;font-size:11px;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;margin-top:5px;}
+
+
+/* YT Overrides of the Overrides */
+#yourTown #content.standardGallery #Col2 {width:399px; padding-left:0;}
+#yourTown #content.standardGallery .ETAF .email {margin-left:0;}
+#yourTown #content.standardGallery .ETAF #bdc_facebook {height:40px;}
+#yourTown #content.standardGallery .ETAF li a#ck_digg {padding-right:8px; margin-right:7px;}
+#yourTown #content.standardGallery .ETAF li a#ck_facebook {padding-right:9px; margin-right:8px;}
+#yourTown #content.standardGallery {margin-top:10px;}
+#yourTown #content.standardGallery .tt {font-family:"Georgia","Times New Roman",Times,serif;}

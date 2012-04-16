@@ -1,0 +1,202 @@
+/* BODY SETUP STYLES */
+div.gallery {background-image: url(http://cache.boston.com/universal/site_graphics/photo_gallery_3_column.gif);padding:0;margin:0;}
+
+div.gallery #Col1 {width:749px; background-color:#fff;padding:0;margin:0;}
+div.gallery #Col2 {width:160px; border:none; position:relative; margin:0;}
+div.gallery #Col3 {display:none;}
+div.gallery #Col2 {width:189px; border-right:none; text-align:center;position:relative; margin-right:0;margin:10px 0 0 21px;}
+
+/* GENERIC STYLES */
+.utility {font:11px arial; color:#464646; display:block;}
+.tag {font:11px arial; color:#464646;display:inline;}
+.caption {font:12px arial; color:#464646; line-height:12px;padding-bottom:4px;}
+.leadOut {text-align:right; background-image: url(http://cache.boston.com/universal/site_graphics/blue_arrow.gif); background-repeat:no-repeat; background-position:center right;text-transform:uppercase;}
+.leadOut a {padding-right:7px;font-size:10px;} 
+.leadOut a:hover {border-bottom: none;}
+div.gallery .leadIn {font-family:arial;}
+#articleMasthead img {float:right;}
+.source {float:right;}
+div.gallery .breadcrumb {float:left;font-size:10px; font-family:arial; text-transform:uppercase;margin:10px 0 0 0;padding:0; font-weight:bold;padding-bottom:10px;}
+
+
+
+/* Gallery Shell - Light  */
+#galleryShell {width:707px; background-color:#fff; overflow:hidden; border:1px solid #e5e5e5; border-top:4px solid #b7dcff;margin:0;padding:20px;}
+#galleryShell #top {margin-bottom:30px;padding-bottom:15px;}
+div.gallery #top h2 {float:left;margin-bottom:20px;position:relative;top:-2px;width:539px;overflow:hidden;}
+div.gallery #top ul.prevNext {margin:0;padding:0;list-style-type:none;float:right;display:block;width:160px;height:19px;overflow:hidden;}
+div.gallery #top ul.prevNext li {border:1px solid #3f5f9c; background:#fff;color:#3f5f9c;font:bold 12px arial;text-align:center;text-decoration:none;padding:1px 0;margin:0 2px;display:block;float:right;overflow:hidden; width:70px;}
+div.gallery #top ul.prevNext li a {text-decoration:none;border-bottom:none;display:block;}
+div.gallery #top ul.prevNext li:hover {text-decoration:none;color:#fff;}
+
+#galleryShell #photoCaption {width:187px;height:inherit;overflow:hidden;float:left;padding-left:10px;position:relative;}
+#galleryShell #photoBottom .leadIn {float:none;padding:0 9px 0 2px;margin:0;width:auto;}
+#galleryShell #photoBottom .linklist {float:left;margin:0; padding:0 0 0 15px;}
+#galleryShell #photoBottom .linklist li {width:625px;}
+#galleryShell #photoBottom .source {padding-left:5px;float:none;}
+
+
+/* Page numbers - PrevNext buttons - Light */
+div.gallery #galleryShell ul.numNav {margin:10px 0 20px 0;list-style-type:none;padding:0;height:19px;float:right;overflow:hidden;}
+div.gallery #galleryShell ul.numNav li {border:1px solid #efefef; background:#fff;color:#999;font:bold 12px arial;text-align:center;text-decoration:none;padding:1px 0;margin:0 2px;display:block;float:left;overflow:hidden;}
+div.gallery #galleryShell ul.numNav li.number {width:27px;height:14px;}
+div.gallery #galleryShell ul.numNav li.ellipses {width:28px;height:14px;border:none;}
+div.gallery #galleryShell ul.numNav li.ellipses:hover {color:#3f5f9c;}
+div.gallery #galleryShell ul.numNav li.text {font-weight:normal;width:auto;height:14px;display:block;float:left;padding:1px 2px;margin:0 2px;}
+div.gallery #galleryShell ul.numNav li a {text-decoration:none;border-bottom:none;display:block;}
+div.gallery #galleryShell ul.numNav li:hover {text-decoration:none;border-color:#3f5f9c;color:#fff;}
+div.gallery #galleryShell ul.numNav li.numberActive {width:27px;height:14px;background:#3f5f9c;overflow:hidden;}
+div.gallery #galleryShell ul.numNav li.numberActive a {text-decoration:none;color:#fff;display:block;float:left;padding:0 10px;}
+div.gallery #galleryShell ul.numNav li.numberActive:hover {border:solid #fff 1px;}
+div.gallery #galleryShell a.arrowLeft {margin-left:4px;padding:0 8px;text-align:left; background-image: url(http://cache.boston.com/universal/site_graphics/left_blue_arrow.jpg); background-repeat:no-repeat; background-position:center left;font-weight:bold;}
+div.gallery #galleryShell a.arrowRight {margin-right:4px;padding:0 8px;text-align:right; background-image: url(http://cache.boston.com/universal/site_graphics/blue_arrow.gif); background-repeat:no-repeat; background-position:center right;}
+
+div.gallery ul.etaf {margin:10px 0 0 0;display:block;float:right; overflow:hidden;padding-top:3px;}
+div.gallery ul.etaf li.email {border:none;margin-left:10px;display:block;padding:12px;margin-left:10px;font-weight:bold;}
+div.gallery ul.etaf li.email img {position:relative;top:2px;padding-right:5px;float:left;}
+
+#galleryShellDark .etaf .email a, #galleryShell .etaf .email a {background-image:url(http://cache.boston.com/universal/site_graphics/icon_blue_email.gif); background-repeat:no-repeat; padding-left:19px;}
+
+
+/* Gallery Shell - Dark */
+#galleryShellDark {width:707px; background:#464646; overflow:hidden; border:1px solid #464646; border-top:4px solid #e5e5e5;margin:0;padding:20px;}
+#galleryShellDark #top {margin-bottom:30px;padding-bottom:15px;}
+#galleryShellDark #top h2 {float:left;margin-bottom:20px;position:relative;top:-2px;width:519px;color:#fff;}
+#galleryShellDark #top ul.prevNext {margin:0;padding:0;list-style-type:none;float:right;display:block;width:160px;height:19px;overflow:hidden;}
+#galleryShellDark #top ul.prevNext li {border:1px solid #fff; background:#464646;color:#fff;font:bold 12px arial;text-align:center;text-decoration:none;padding:1px 0;margin:0 2px;display:block;float:right;overflow:hidden;}
+#galleryShellDark  #top ul.prevNext li a {text-decoration:none;border-bottom:none;display:block;}
+#galleryShellDark #top ul.prevNext li:hover {text-decoration:none;border-color:#999;color:#fff;}
+#galleryShellDark #photoCaption {width:187px;height:inherit;overflow:hidden;float:left;padding-left:10px;position:relative;color:#fff;}
+
+/* Page numbers - PrevNext - Dark */
+div.gallery #galleryShellDark ul.numNav {margin:10px 0 20px 0;list-style-type:none;padding:0;height:18px;float:right;overflow:hidden;}
+#galleryShellDark ul.numNav li {border:1px solid #efefef; background:#464646;color:#fff;font:bold 12px arial;text-align:center;text-decoration:none;padding:1px 0;margin:0 2px;display:block;float:left;}
+#galleryShellDark ul.numNav li.number {width:27px;height:14px;}
+#galleryShellDark ul.numNav li.ellipses {width:28px;height:14px;border:none;}
+#galleryShellDark ul.numNav li.ellipses:hover {color:#fff;}
+#galleryShellDark ul.numNav li.text {font-weight:normal;width:44px;height:14px;background:#464646;color:#fff;display:block;float:left;padding:1px 2px;margin:0 2px;}
+#galleryShellDark ul.numNav li a {text-decoration:none;border-bottom:none;color:#fff;display:block;}
+#galleryShellDark ul.numNav {margin:20px 0;list-style-type:none;padding:0;}
+#galleryShellDark ul.numNav li:hover {text-decoration:none;border-color:#999;}
+#galleryShellDark ul.numNav li.numberActive {width:27px;height:14px;background:#fff;border-color:#fff;margin:0 2px;overflow:hidden;}
+#galleryShellDark ul.numNav li.numberActive a {text-decoration:none;color:#000;display:block;float:left;padding:0 10px;}
+#galleryShellDark ul.numNav li.numberActive:hover {border:1px solid #999;}
+div.gallery #galleryShellDark a.arrowRight {margin-right:4px;padding:0 8px;text-align:right; background-image: url(http://cache.boston.com/universal/site_graphics/dark_arrow_right.gif); background-repeat:no-repeat; background-position:center right;}
+div.gallery #galleryShellDark a.arrowLeft {margin-left:4px;padding:0 8px;text-align:left; background-image: url(http://cache.boston.com/universal/site_graphics/dark_arrow_left.gif); background-repeat:no-repeat; background-position:center left;}
+
+div.gallery #galleryShellDark ul.etaf {margin:40px 0 20px 0;display:block;float:right;width:125px;overflow:hidden;padding-top:3px;}
+div.gallery #galleryShellDark ul.etaf li.email {border:none;margin-left:10px;display:block;float:right;padding:1 2px;margin-left:10px;font-weight:bold;}
+#galleryShellDark li.email a:hover {color:#e5e5e5;}
+div.gallery #galleryShellDark ul.etaf li.email img {position:relative;top:2px;padding-right:5px;float:left;}
+
+#galleryShellDark #photoBottom .linkList {color:#fff;width:505px;overflow:hidden;}
+#galleryShellDark #photoBottom .linklist li {color:#fff;}
+#galleryShellDark #photoBottom .leadIn {padding:0 9px 0 2px;margin:0;width:auto;color:#e5e5e5;}
+
+#galleryShellDark #photoBottom .source {padding-left:5px;float:none;color:#fff;}
+#galleryShellDark #photoMain .source {color:#fff;}
+#galleryShellDark a {color:#fff;}
+#galleryShellDark a:hover {color:#fff;border-bottom:1px dotted #fff;} 
+#galleryShellDark .imageLink a:hover {border-bottom:none;text-decoration:none;} 
+
+#galleryShell #photoMain {width:499px;height:inherit;overflow:hidden;float:left;border-right:1px dotted #3f5f9c;padding-right:10px;}
+#galleryShellDark #photoMain {width:499px;height:inherit;overflow:hidden;float:left;border-right:1px dotted #fff;padding-right:10px;}
+#galleryShellDark #photoMain img a:hover {border-bottom:none;}
+#galleryShell #photoMain img a:hover {border-bottom:none;} 
+
+#galleryShellDark #photoBottom .leadIn {float:left;padding:0 9px 0 2px;margin:0;width:auto;}
+#galleryShellDark #photoBottom .linklist {float:left;margin:0; padding:0 0 0 15px;}
+#galleryShellDark #photoBottom .linklist li {width:625px;}
+#galleryShellDark #photoBottom .source {padding-left:5px;float:none;}
+
+/* Photo */
+#galleryShell #photoMain {width:499px;height:inherit;overflow:hidden;float:left;border-right:1px dotted #3f5f9c;padding-right:10px;}
+#galleryShellDark #photoMain {width:499px;height:inherit;overflow:hidden;float:left;border-right:1px dotted #fff;padding-right:10px;}
+#galleryShellDark #photoMain a:hover {border-bottom:none;}
+#galleryShell #photoMain a:hover {border-bottom:none;}
+
+/* Light Boxing for Photo Enlarge */
+#photoMain .lightBoxing {position:relative;float:right;display:inline;}
+#photoMain .lightBoxing span.utility {background-color:#464646; position:absolute;}
+#photoMain .lightBoxing span.utility a {color:#fff;}
+#photoMain .lightBoxing span.utility a:hover {color:#fff;}
+#photoMain .utility {opacity: 0.8; position:absolute; padding:4px;left:1px; display:inline;bottom:1px;}
+
+/* INSIDE BOSTON.COM STYLES */
+div.gallery #insideBcom {width:749px;margin-top:40px;}
+div.gallery #insideBcom h3 {margin-top:8px; border-bottom: 4px solid #3f5f9c; background-color:#fff;}
+div.gallery #insideBcom ul.insideBcomList {display:inline;}
+div.gallery #insideBcom li.insideContent {display:block;float:left;width:205px;height:180px;}
+div.gallery #insideBcom li.insideContent a {padding:7px 12px 0 10px;margin:0;}
+div.gallery #insideBcom li.insideContent .insideImg a {padding:2px 10px 0 10px;margin:0;line-height:0;}
+div.gallery #insideBcom li.plusLI {display:block;float:left;width:109px;list-style-type:none;padding:10px 0 0 10px;overflow:hidden;}
+div.gallery #insideBcom #ic4 {display:none;}
+div.gallery #insideBcom li.plusLI li.listPipe {display:none;}
+div.gallery #insideBcom .plusLinks li {list-style-type:disc;}
+div.gallery #insideBcom .plusLI .plusLinks {padding:0 0 0 15px; margin:0; color:#3E5F9D;}
+
+/* FOOTER STYLES */
+div.gallery #bottomAd {margin:20px 0 0 0;border-top:1px dotted #3E5F9D; padding:20px 0; text-align:-moz-center; }
+
+/* SubNav option */
+#galleryShellDark #subNav {margin:20px 0;padding:0;}
+#galleryShellDark #subNav .leadIn {float:left;padding:2px 2px 0 0;margin:0;width:120px;font:bold 12px arial;color:#e5e5e5;}
+#galleryShellDark #subNav .linklist {float:left;margin:0; padding:0 0 0 15px;}
+#galleryShellDark #subNav ul.linklist {width:505px;list-style-type:none;}
+#galleryShellDark #subNav .source {padding-left:5px;float:none;}
+#galleryShellDark #subNav .linklist li {width:74px;height:14px;background:#464646;color:#fff;display:block;float:left;padding:1px 2px;margin:0 2px;border:1px solid #efefef; font:bold 12px arial;text-align:center;text-decoration:none;}
+#galleryShellDark #subNav .linklist li a {text-decoration:none;border-bottom:none;color:#fff;display:block;}
+#galleryShellDark #subNav .linklist li:hover {text-decoration:none;border-color:#999;}
+#galleryShellDark #subNav li.active {width:74px;height:14px;background:#fff;border-color:#fff;padding:1px 2px;margin:0 2px;overflow:hidden;}
+#galleryShellDark #subNav li.active a {text-decoration:none;color:#000;font-weight:bold;display:block;padding:0 10px;}
+#galleryShellDark #subNav li.numberActive:hover {border:1px solid #999;}
+
+/* Page Breadcrumb */
+#pageBreadcrumb ul {margin:0; padding:0; color:#999;}
+#pageBreadcrumb ul li {display:inline; color:#999;}
+#pageBreadcrumb ul li a {margin-right:3px; color:#3F5F9C;}
+#pageBreadcrumb ul li a:hover {color:#002878; border-bottom: none;}
+
+#photoCaption p:first-child {margin-top:7px;}
+
+div.small #galleryShell #photoCaption {width:317px;padding-left:0;}
+div.small #galleryShell #photoCaption div {padding-right:10px;} 
+div.small #galleryShell #photoMain {width:371px; padding-right:0; border:0;float:right;}
+div.small #galleryShell #photoMain img {padding:0;}
+div.small #galleryShell ul.numNav {margin:10px 0 20px 0;list-style-type:none;padding:0;height:19px;float:right;overflow:hidden;}
+div.gallery #top .prevNext a.arrowRight {padding-right:18px;}
+#container .gallery #photoCaption {line-height:19px; font-size:14px;}
+#container .gallery #photoCaption .credit {line-height:12px;}
+.gallery #articleMasthead img {margin-top:10px;}
+
+#galleryShell h3 {text-transform:none;}
+
+div.gallery #galleryShell ul.numNav li.inactive, div.gallery #galleryShellDark ul.numNav li.inactive {border:1px solid #e5e5e5}
+div.gallery #galleryShell ul.numNav li.inactive a.arrowLeft, div.gallery #galleryShellDark ul.numNav li.inactive a.arrowLeft {background-image:url(http://cache.boston.com/universal/site_graphics/left_grey_arrow.gif); font-weight:normal;}
+
+div.gallery #galleryShell ul.numNav li:hover, div.gallery #galleryShellDark ul.numNav li:hover, li.inactive a:hover, li.inactive a:active, li.inactive a:focus {color: #999}
+
+div.gallery #galleryShellDark li.inactive a, div.gallery #galleryShell li.inactive a {color:#999; background-image: url(http://cache.boston.com/universal/site_graphics/left_grey_arrow.gif);}
+div.gallery #galleryShellDark #top ul.prevNext li.inactive, div.gallery #galleryShell ul.prevNext li.inactive {border:1px solid #e5e5e5;}
+div.gallery #top ul.prevNext li.inactive:hover {text-decoration:none;color:#999; font-weight:normal;}
+img.photoBorder { border: 1px solid #999;}
+
+/* for the share tools on galleries */
+.gallery .ETAF { height:20px;list-style-type:none;margin:16px auto 20px; }
+.gallery.small .ETAF {float:right;padding:0;}
+.gallery .ETAF li {float:left;}
+.gallery .ETAF li a {float:left;line-height:17px;border-right:solid 1px #999;padding-right:8px;margin-right:8px;padding-left:20px;font-size:11px;}
+.gallery .ETAF li a:hover {border-bottom:none;}
+.gallery .ETAF .etaf {background: url(http://cache.boston.com/universal/site_graphics/icon_blue_email.gif) no-repeat 0 3px;}
+.gallery .ETAF #ck_facebook {background: url(http://cache.boston.com/universal/site_graphics/icons/facebook.png) no-repeat 0 2px;}
+.gallery .ETAF #ck_twitter {background: url(http://cache.boston.com/universal/site_graphics/icons/twitter.png) no-repeat 0 2px;}
+.gallery .ETAF #ck_digg {background: url(http://cache.boston.com/universal/site_graphics/icons/digg.png) no-repeat 0 3px;}
+.gallery .ETAF #ck_ybuzz {background: url(http://cache.boston.com/universal/site_graphics/icons/yahoobuzz.png) no-repeat 0 2px;padding-bottom:1px;}
+.gallery .ETAF #ck_sharethis {background: url(http://cache.boston.com/universal/site_graphics/icons/sharethis.png) no-repeat 0 2px; padding-bottom:1px; border-right:none;}
+#galleryShell, .photoCol, #Col1, #Col2 {overflow:visible;}
+.gallery iframe#bdc_facebook {width:189px; height:37px;}
+
+/* YT gallery fixes */
+#yourTown ul.ETAF {overflow:visible; padding-left:40px;}
+#yourTown ul.ETAF a.etaf {margin-top:0}
+#yourTown ul.ETAF li.email {padding:0; float:left;}
