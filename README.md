@@ -6,7 +6,7 @@ This is intended to be a proof-of-concept for context-aware ad serving in a resp
 a set of arbitrarily defined pixel width ranges. By comparing an agent's current viewport width to a set of contexts in a configuration
 object we can select the most appropriate context, yielding a list of ad positions that suite the agent's current layout and environment.
 
-We are using Open AdStream (OAS) for this project's use case. Check with your ad vendor's implementation for any differences.
+We are using 24/7 RealMedia's Open AdStream (OAS) platform for this project's use case. Check with your ad vendor's implementation for any differences.
 
 **More about this project**
 
@@ -23,7 +23,7 @@ browser resize. However, delivering adapted ads is a promising way to overcome t
 		* Presents new opportunities to use traditional online sales channels to target users of other devices, rather than assuming the risks of devising new product platforms to reach them.
 	* Cons
 		* The definition of contexts is dependent on browser width/screen size (we avoid touch/no touch flag)
-		* Requires marketing, sale and AdOps culture shift to serve ads in the new additional contexts
+		* Requires a culture shift to serve ads in a responsive environment
 		* Selling ads with additional contexts could be potentially confusing to advertisers and creative agencies
 3. How it works: For marketing, sales and product
 	* Internally determined number and nature of contexts, which means business goals can define the contexts rather than outside constraints
@@ -38,21 +38,17 @@ browser resize. However, delivering adapted ads is a promising way to overcome t
 	* **Overview** - First, when the page begins loading, an agent's size is compared to a pre-defined default context. By 'default' we mean the widest breakpoint declared in the configuration object `ctx`. We realize that by declaring the widest context a default we aren't strictly abiding by the principle of mobile-first design. We are setting aside this question in early iterations of this project and we hope to address it soon. The comparison of browser `clientWidth` to the default context determines if we will use `clientWidth` or the device's lesser dimension as the final context measurement. The measurement works for the widest range of screen sizes, but doesn't attenuate the experience on desktops when browsers aren't maximized. Last, the `ctx` object is looped through and compared to the calculated screen size value. When a matching context is selected, it uses a property called `positions` to determine which group of OAS ad positions should be applied. The grouping of positions by context is an arbitrary determination driven by business goals. The page then continues to parse and OAS uses the context to set up and render those ad positions.
 		* It is important to note that this solution does not reflow ads upon javascript's `resize` event or by media queries. This solution sets context once: when the page loads.
 		* There is an option to hide ads should the viewport width change after the inital page load (not implemented yet).
-	
-	* **List Positions** - A master list of all the possible active positions would be stored in the page markup in a meta tag, looking something like this:
+		* **List Positions** - A master list of all the possible active positions would be stored in the page markup in a meta tag, looking something like this:
 	`<meta name="oas-positions" id="oas-positions" content="HEADLINE2,ARTICLE,TOP,HEADLINE2,ARTICLE,FOOTER">`. The comma-separated list of positions would be administered on the back end.
 	The page being served would acquire the list position from metadata. If no metadata existed for a particular page, acquisition logic would walk up the taxonomy and get
-	list position metadata from the nearest ancestor.
-	
-	* **Position context grouping** - The list position string in the markup is ordered to correspond to the groupings defined in each context. The grouping is positional. So,
+	list position metadata from the nearest ancestor. 
+		* **Position context grouping** - The list position string in the markup is ordered to correspond to the groupings defined in each context. The grouping is positional. So,
 	if the 'basic' context's positions are '2' - it will use the first two positions in the metadata list. contexts in between other contexts use the previous contexts as offsets for
 	selecting the correct start position in the position string.
-	
 	* **Determining agent's context** - The following measurement is taken to determine the user agent's current available size: `screenSize = Math.min(win.screen.availWidth, win.screen.availHeight)`.
 	This returns the smaller dimension of the user's available screen size. If the agent's clientWidth (the width of the viewport) is less than the default context's limit, We use the smaller dimension as a defensive move to avoid ads bleeding beyond the layout. While most users don't resize browsers on desktops, it is true that on phones and tablets, users change orientation much more frequently. This creates potential for out-of-context ads showing when a user re-orients his/her device. We use the smaller of the device's two dimensions to guard against this possibility.
-
 	* In addition to building a contextual list of positions, this solution passes to OAS the name of the context as a query variable. This can be extremely useful in the OAS ad scheduling administration. It allows administrators to serve different creative to the same position across different contexts.
 
-This project was inspired by a blog post written by Rober Flaherty at RavelRumba, <a href="http://www.ravelrumba.com/blog/responsive-ads-real-world-ad-server-implementation/">here</a>.
+This project was inspired by a blog post written by Robert Flaherty at RavelRumba, <a href="http://www.ravelrumba.com/blog/responsive-ads-real-world-ad-server-implementation/">here</a>.
 
 For further reading about viewports and measuring screen real estate, see <a href="http://www.quirksmode.org/mobile/viewports.html">PPK's illuminating post</a>.
